@@ -1,0 +1,5 @@
+PLANNING DOCUMENT
+=================
+
+M. can you put the logo in the assets/logo folder!
+Thanks, W.
