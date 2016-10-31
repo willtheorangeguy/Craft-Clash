@@ -1,2 +1,7 @@
 CHANGELOG
 =========
+0.0.1 Beta:
+Initial Commit
+Add GUI and PyModules
+Add welcome screen
+
