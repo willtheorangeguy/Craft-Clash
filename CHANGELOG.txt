@@ -4,4 +4,5 @@ CHANGELOG
 Initial Commit
 Add GUI and PyModules
 Add welcome screen
+Add logo
 
