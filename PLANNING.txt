@@ -1,5 +1,12 @@
 PLANNING DOCUMENT
 =================
+M. I'm using abbreviations for our names. M. for you, W. for me.
 
-M. can you put the logo in the assets/logo folder! The textures can go in the assets/textures folder!
-Thanks, W.
+M. can you put the textures and any other logos that you have created in the following folders:
+- assets/logo for logos
+- assets/textures for textures
+- Anything else let me know.
+
+I will have the front screen GUI look mostly like the Minecraft Pocket Edition GUI.
+Still working out some details and kinks, should be able to do most of my work on Saturdays!
+The first version number will be 0.0.1 BETA. All the version information can be found in the CHANGELOG.txt file.

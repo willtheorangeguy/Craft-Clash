@@ -1,8 +1,9 @@
 CHANGELOG
 =========
-0.0.1 Beta:
-Initial Commit
+0.0.1 BETA:
+Initial Commit (AKA: Get this thing started!)
 Add GUI and PyModules
-Add welcome screen
+Add welcome screen and play screen and options screen.
 Add logo
+
 
