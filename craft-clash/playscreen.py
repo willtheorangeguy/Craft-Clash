@@ -1,2 +1,0 @@
-import tkinter
-import turtles
