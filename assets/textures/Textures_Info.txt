@@ -1,6 +1,6 @@
 TEXTURES INFO and COPYRIGHTS
 ============================
-Textures made with BDCraft Cubix, and also made with Microsoft Paint.
+Textures made with BDCraft Cubix, and also made with Microsoft Paint. We also made some with Piskel (www.piskelapp.com)
 Some textures copied from Minecraft and Terraria texture packs.
 
 Textures (c) Necti Development Co. and Mojang Development. Do not reproduce or distribute as your own under ANY circumstances.

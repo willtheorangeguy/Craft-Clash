@@ -1,0 +1,6 @@
+GUI Copyright (C) 2016:
+Mojang Developemt (some GUI copied from Minecraft Windows 10 Edition Beta and then modified)
+and
+Necti Co.
+
+YOU MAY NOT REDISTRIBUTE THE GUI AS YOUR OWN UNDER ANY CIRCUMSATNCES.
