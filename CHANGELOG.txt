@@ -6,4 +6,13 @@ Add GUI and PyModules
 Add welcome screen and play screen and options screen.
 Add logo
 
+0.0.2 BETA:
+Finished welcome screen
+Added and completed options screen
+Renamed playscren.py to playscreen#.py
+Removed play screen
+## ONLY ONE WORLD NOW! ##
+Play! button now goes to world right away
+
+
 

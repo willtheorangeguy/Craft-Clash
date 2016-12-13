@@ -1,4 +1,19 @@
-## Copyright (C) 2016 Necti Co. and Dog Face Development Co.
+"""
+Copyright (C) 2016 Necti Co. and Dog Face Development Co.
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+"""
 ## All rights reserved.
 """
 CRAFT CLASH
@@ -7,7 +22,6 @@ Main project file.
 # Import Statements
 from tkinter import *
 import turtle
-from craftclash.playscreen import *
 from craftclash.optionscreen import *
 
 # Window Elements
@@ -22,10 +36,10 @@ titleimg = PhotoImage(file = "assets/logo/titlelogo.gif")
 
 #Widgets
 titlelabel = Label(window, image = titleimg)
-btn_play = Button(window, text = "Play!", height = 3, width = 60, bd = 4, relief = RAISED, command = playscreen)
+btn_play = Button(window, text = "Play!", height = 3, width = 60, bd = 4, relief = RAISED, command = exit)
 btn_options = Button(window, text = "Options", height = 3, width = 60, bd = 4, relief = RAISED, command = exit)
 btn_exit = Button(window, text = "Exit", height = 3, width = 60, bd = 4, relief = RAISED, command = exit)
-copyright_label = Label(window, text = "Copyright (C) 2016 Necti Co. and Dog Face Development Co. \t\t\t\t Version 0.0.1 BETA")
+copyright_label = Label(window, text = "Copyright (C) 2016 Necti Co. and Dog Face Development Co. \t\t\t Version 0.0.1 BETA")
 
 # Pack Statements
 titlelabel.pack(side = TOP, pady = 20)
