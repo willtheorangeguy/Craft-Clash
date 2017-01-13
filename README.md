@@ -1,5 +1,5 @@
 # CraftClash
-![logo](https://github.com/Necti-Company/CraftClash/raw/master/assets/logo/titlelogo.png)
+![logo](https://raw.githubusercontent.com/Necti-Company/Craft-Clash/master/assets/logo/titlelogo.png)
 A dynamic cross of [Clash of Clans](http://supercell.com/en/games/clashofclans/) and [Minecraft](https://minecraft.net/en/). Spend the day upgrading your buildings and walls, craft new items and tend to your world. Have fun spending the night fighting off monsters and hoping you and your world can endure the damage that they do! Written in Python 3 with ❤. Fully open source!! 
 
 **THIS APP IS STILL IN BETA**
