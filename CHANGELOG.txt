@@ -12,7 +12,9 @@ Added and completed options screen
 Renamed playscren.py to playscreen#.py
 Removed play screen
 ## ONLY ONE WORLD NOW! ##
-Play! button now goes to world right away
+Finished README.md, and website!
+CHANGED COMPANY NAME TO Derpyface Development Co. !!!!
+
 
 
 

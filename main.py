@@ -1,5 +1,5 @@
 """
-Copyright (C) 2016 Necti Co. and Dog Face Development Co.
+Copyright (C) 2016 Derpyface Development Co. and Dog Face Development Co.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@ Copyright (C) 2016 Necti Co. and Dog Face Development Co.
 """
 ## All rights reserved.
 """
-CRAFT CLASH
+CRAFTCLASH
 Main project file.
 """
 # Import Statements
@@ -26,7 +26,7 @@ from craftclash.optionscreen import *
 
 # Window Elements
 window = Tk()
-window.title("Craft Clash - Windows - 0.0.1 BETA")
+window.title("CraftClash - Windows - 0.0.2 BETA")
 window.configure(bg = "sky blue")
 #if "nt" == os.name:
 #    window.wm_iconbitmap(bitmap = "assets/logo/titletumbnail.gif")
@@ -37,9 +37,9 @@ titleimg = PhotoImage(file = "assets/logo/titlelogo.gif")
 #Widgets
 titlelabel = Label(window, image = titleimg)
 btn_play = Button(window, text = "Play!", height = 3, width = 60, bd = 4, relief = RAISED, command = exit)
-btn_options = Button(window, text = "Options", height = 3, width = 60, bd = 4, relief = RAISED, command = exit)
+btn_options = Button(window, text = "Options", height = 3, width = 60, bd = 4, relief = RAISED, command = optionsscreen())
 btn_exit = Button(window, text = "Exit", height = 3, width = 60, bd = 4, relief = RAISED, command = exit)
-copyright_label = Label(window, text = "Copyright (C) 2016 Necti Co. and Dog Face Development Co. \t\t\t Version 0.0.1 BETA")
+copyright_label = Label(window, text = "Copyright (C) 2016 Derpyface Development Co. and Dog Face Development Co. \t\t\t Version 0.0.2 BETA")
 
 # Pack Statements
 titlelabel.pack(side = TOP, pady = 20)

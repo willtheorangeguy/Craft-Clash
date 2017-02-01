@@ -1,12 +1,14 @@
 PLANNING DOCUMENT
 =================
-M. I'm using abbreviations for our names. M. for you, W. for me.
+You can put textures, GUI and music that you have created in the following folders:
+- \assets\textures for Textures
+- \assets\gui for GUI
+- \assets\music for music.
+Make sure you are complying with the license for these items.
 
-M. can you put the textures and any other logos that you have created in the following folders:
-- assets/logo for logos
-- assets/textures for textures
-- Anything else let me know.
+CURRENT NEEDINGS:
+- Travis CI or Circle CI integration.
+- Options screen help.
 
-I will have the front screen GUI look mostly like the Minecraft Pocket Edition GUI.
-Still working out some details and kinks, should be able to do most of my work on Saturdays!
-The first version number will be 0.0.1 BETA. All the version information can be found in the CHANGELOG.txt file.
+
+Should be able to do most of my work on Saturdays!
