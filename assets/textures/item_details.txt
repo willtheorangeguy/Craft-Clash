@@ -1,0 +1,18 @@
+# Health Points: Each mob will do a certian amount of damage to health points, if health points = 0 then the fence breaks
+copper_fence:
+	crafting_recipe:
+		6 copper + 2 wood = copper fence x4
+	health_points:
+		8
+
+stone_fence:
+	crafting_recipe:
+		8 stone + 1 copper = stone fence x4
+	health_points:
+		12
+
+wood_fence:
+	crafting_recipe:
+		6 wood + 1 stone = Wooden fence x4
+	health_points:
+		6	
