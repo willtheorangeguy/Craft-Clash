@@ -53,7 +53,8 @@ To find more information about how to play the game, such as crafting recipes fo
 
 The current release is *BETA v0.0.2*. The next release, version *BETA v0.0.3* is coming out soon with the following features:
 - Finished Options screen.
-- Game closes when you click the *Exit* button, doesn't re-open.
+- *Exit* button renamed to *About*.
+- New *About* screen, telling about the program.
 - When the game launches you get the Welcome screen rather than the Options screen.
 
 Your [Pull Requests](https://github.com/Derpyface-Development-Co/Craft-Clash/pulls) for new features are always welcome! Look to see some of your suggestions in upcoming updates.
@@ -64,7 +65,7 @@ Because this app is still in beta there are lots of things that don't work yet a
 Who likes bugs? If you’ve found any feel free to let us know on the [issues page](https://github.com/Derpyface-Development-Co/Craft-Clash/issues) and we will make sure to fix them in short order, and release those fixes in new releases.
 
 **Note:** Please check the known issues list below before posting an issue to see if your issue is already on the list!
-- Program re-opening after the *Exit* button is clicked. (Sometimes)
+- Program re-opening after the *Exit* button is clicked.
 - The *Play!* button doesn't work. (Not a bug, we haven't got there yet!)
 - Options screen automatically opens after starting the program.
 
@@ -77,7 +78,7 @@ If you are going to contribute please check out the `PLANNING.txt` document for 
 - [@derpyface](https://github.com/derpyface)
 - [@Derpyface-Development-Co.](https://github.com/Derpyface-Development-Co/)
 
-## License & Legal Stuff
+## License, Assets & Legal Stuff
 ### License
 This software has been released as open source under the *GNU General Public License V3.0* license. 
 
@@ -108,4 +109,4 @@ You can learn more about the licensing and legal stuff in the [wiki](https://git
 ## Other Links
 Visit these other links to learn more about *CraftClash*:
 
-[The Website](), [Latest Version Download](https://github.com/Derpyface-Development-Co/Craft-Clash/archive/beta-v0.0.1.zip), [Issues Page](https://github.com/Derpyface-Development-Co/Craft-Clash/issues), [Pull Request Page](https://github.com/Derpyface-Development-Co/Craft-Clash/pulls), [Wiki](https://github.com/Derpyface-Development-Co/Craft-Clash/wiki), and [Documentation](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/README.md).
+[The Website](https://derpyface-development-co.github.io/craft-clash), [Latest Version Download](https://github.com/Derpyface-Development-Co/Craft-Clash/archive/beta-v0.0.2.zip), [Issues Page](https://github.com/Derpyface-Development-Co/Craft-Clash/issues), [Pull Request Page](https://github.com/Derpyface-Development-Co/Craft-Clash/pulls), [Wiki](https://github.com/Derpyface-Development-Co/Craft-Clash/wiki), and [Documentation](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/README.md).
