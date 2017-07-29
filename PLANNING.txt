@@ -15,9 +15,11 @@ Future Projects and Ideas (Anyone is free to contribute here):
 - Rather than and inventory / hot bar, maybe more like a deck of cards (Clash Royale ref.). Or when battling a more of Boom Beach interface in which there are cards that you select and attack with.
 - Takes time to upgrade walls and defence (2-6 hours, depending on upgrade).
 - Could train mobs to become defensive mobs that do your defensive work for you if you convert them with potion, food, etc.
+- Mobs could try to attack you, but also would attack something called a 'heart' (kind of like a beacon) and if that was destroyed then you would die. But of course you could still die from being killed by mobs.
 - Mobs:
 	- Goats
 	- Bears
+	- Zombies
 - Foodstuffs:
 	- Apple pie
 	- Specific apple trees?
