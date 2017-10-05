@@ -98,11 +98,11 @@ The Logos are Copyright (C) 2016 Derpyface Development Co. You can view the lice
 
 The Music is Copyright (C) 2016: Mojang Developemt (some music copied from Minecraft: Windows 10 Edition Beta and then modified) and Derpyface Development Co. You can vies the license file in [`assets\music\music License.txt`](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/assets/music/music%20License.txt).   
 The following songs are copyright by the following individual people:   
-*fun.m4a Copyright (C) 2015 William V. (aka: @willtheorangeguy on GitHub)*   
+*fun.m4a Copyright (C) 2015 William Vandergraaf*   
 *fun2.mp3 Copyright (C) Mr. Scruff (Album: Ninja Tuna, #1)*    
 *calm4.mp3 Copyright (C) Richard Stoltzman, and Slovak Radio Symphony Orchestra (Album: Fine Music, Vol. 1, #2)*
 
-The Textures are Copyright (C) Derpyface Development Co. and Mojang Development. Some textures copied from Minecraft and Terraria texture packs. The textures have been made with: BDCraft Cubix, and also made with Microsoft Paint. We also made some with [Piskel](https://piskelapp.com). You can vies the license file in [`assets\textures\Textures_Info`](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/assets/textures/Textures_Info.txt).
+The Textures are Copyright (C) Derpyface Development Co. and Mojang Development. Some textures copied from Minecraft and Terraria texture packs. The textures have been made with: BDCraft Cubix, and also made with Microsoft Paint. We also made some with [Piskel](https://piskelapp.com). You can view the license file in [`assets\textures\Textures_Info`](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/assets/textures/Textures_Info.txt).
 
 You can learn more about the licensing and legal stuff in the [wiki](https://github.com/Derpyface-Development-Co/Craft-Clash/wiki). 
 
