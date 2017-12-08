@@ -1,20 +1,31 @@
 CHANGELOG
 =========
-0.0.1 BETA:
+0.0.1 BETA - The Initial Version:
+---------------------------------
 Initial Commit (AKA: Get this thing started!)
 Add GUI and PyModules
-Add welcome screen and play screen and options screen.
+Add Welcome Screen and Play Screen and Options Screen.
 Add logo
 
-0.0.2 BETA:
-Finished welcome screen
-Added and completed options screen
+0.0.2 BETA - The Name Change Version:
+-------------------------------------
+Finished Welcome Screen
+Added and completed Options Screen
 Renamed playscren.py to playscreen#.py
-Removed play screen
+Removed Play Screen
 ## ONLY ONE WORLD NOW! ##
 Finished README.md, and website!
 CHANGED COMPANY NAME TO Derpyface Development Co. !!!!
 
-
-
-
+0.0.3 BETA - The Completion of Screens and Legal Version:
+---------------------------------------------------------
+Added more features to the Options Screen
+Added About Screen
+Completed  About Screen
+Added EULA (End User License Agreement)
+Updates to the Project License, Assets License, and Individual Licenses for Assets
+Added setup.py and setup_information.py for setup with cx_Freeze
+Updated PLANNING.txt and CHANGELOG.txt
+Added titlelogo.ico icon
+Added icons to the UI buttons.
+Added more Python modules to the craftclash\pymodules folder.
