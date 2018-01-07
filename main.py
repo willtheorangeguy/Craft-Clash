@@ -1,5 +1,5 @@
 ﻿"""
-Copyright (C) 2016 - 2017
+Copyright (C) 2016 - 2018
 Derpyface Development Co. and Dog Face Development Co.
 
     This program is free software: you can redistribute it and/or modify

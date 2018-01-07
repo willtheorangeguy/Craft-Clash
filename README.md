@@ -83,7 +83,7 @@ You can view the license in the [`LICENSE.md`](https://github.com/Derpyface-Deve
 By using this software you agree to this license. Please adhere to this license when using, distributing, and making changes to the software.
 
 ### EULA (End User License Agreement)
-Before using and downloading the program you must agree to the EULA (End User License Agreement). The EULA contains the Terms and Conditions of the program, and the Privacy Policy, along with other Legal stuff. 
+Before using and downloading the program you must agree to the EULA (End User License Agreement) and the license. The EULA contains the Terms and Conditions of the program, the Privacy Policy, along with other Legal stuff.
 
 You can view the EULA in the [`EULA.txt`](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/EULA.txt) file in this projects repository.
 
@@ -92,20 +92,20 @@ Our assets are copyright and license under the *Creative Commons Attribution 4.0
 
 You can view the license in the [`Creative Commons Attribution 4.0 - Assets License.txt`](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/assets/Creative%20Commons%20Attribution%204.0%20-%20Assets%20License.txt) file in the assets folder.
 
-####The GUI is Copyright (C) 2016:
+####The GUI is Copyright (C) 2016 - 2018:
 Mojang Development (some GUI copied from Minecraft: Windows 10 Edition Beta and then modified) and Derpyface Development Co. You can view the license file in [`assets\gui\GUI License.txt`](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/assets/gui/GUI%20License.txt). 
 
-####The Logos are Copyright (C) 2016:
+####The Logos are Copyright (C) 2016 - 2018:
 Derpyface Development Co. You can view the license file in [`logo\Logo License`](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/assets/logo/Logo License.txt).
 
-####The Music is Copyright (C) 2016:
+####The Music is Copyright (C) 2016 -2018:
 Mojang Developemt (some music copied from Minecraft: Windows 10 Edition Beta and then modified) and Derpyface Development Co. You can vies the license file in [`assets\music\music License.txt`](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/assets/music/music%20License.txt).   
 The following songs are copyright by the following individual people:   
-*fun.m4a Copyright (C) 2015 William V.*   
+*fun.m4a Copyright (C) 2015 - 2018 William V.*   
 *fun2.mp3 Copyright (C) Mr. Scruff (Album: Ninja Tuna, #1)*    
 *calm4.mp3 Copyright (C) Richard Stoltzman, and Slovak Radio Symphony Orchestra (Album: Fine Music, Vol. 1, #2)*
 
-####The Textures are Copyright (C) 2016:
+####The Textures are Copyright (C) 2016 - 2018:
 Derpyface Development Co. and Mojang Development. Some textures copied from Minecraft and Terraria texture packs. The textures have been made with: BDCraft Cubix, Microsoft Paint, and [Piskel](https://piskelapp.com). You can view the license file in [`assets\textures\Textures_Info`](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/assets/textures/Textures_Info.txt).
 
 ####Learn More:
