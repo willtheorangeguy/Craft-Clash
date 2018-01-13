@@ -1,6 +1,7 @@
 # CraftClash
 ![logo](https://github.com/Derpyface-Development-Co/Craft-Clash/raw/master/assets/logo/titlelogo.png)
 
+[![Build Status](https://travis-ci.org/Derpyface-Development-Co/Craft-Clash.svg?branch=BETA-v0.0.3)](https://travis-ci.org/Derpyface-Development-Co/Craft-Clash)
 ![Total Downloads](https://img.shields.io/github/downloads/Derpyface-Development-Co/Craft-Clash/total.svg)
 ![Release Version](https://img.shields.io/github/release/Derpyface-Development-Co/Craft-Clash.svg)
 ![Issues](https://img.shields.io/github/issues/Derpyface-Development-Co/Craft-Clash.svg)
