@@ -62,8 +62,6 @@ Who likes bugs? If you’ve found any feel free to let us know on the [issues pa
 
 **Note:** Please check the known issues list below before posting an issue to see if your issue is already on the list!
 - The *Play!* button doesn't work. (Not a bug, we haven't got there yet!)
-- Options screen automatically opens after starting the program.
-- About screen automatically opens after starting the program.
 
 ## Contributing
 If you are going to contribute please check out the `PLANNING.txt` document for things that we need help with! One thing that we do need right now is help with Travis CI or Circle CI continuous integration.
