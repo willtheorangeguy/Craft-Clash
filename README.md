@@ -8,9 +8,10 @@
 ![Contributors](https://img.shields.io/github/contributors/Derpyface-Development-Co/Craft-Clash.svg)
 ![License](https://img.shields.io/github/license/Derpyface-Development-Co/Craft-Clash.svg)
 
+## Sorry, but CraftClash is no longer supported. Development was terminated on March 24, 2018. This repo is no longer maintained. You can download the latest (and last) source code [here](https://github.com/Derpyface-Development-Co/Craft-Clash/archive/1.0.0final.zip).
+
 A dynamic cross of [Clash of Clans](http://supercell.com/en/games/clashofclans/) and [Minecraft](https://minecraft.net/en/). Spend the day upgrading your buildings and walls, craft new items and tend to your world. Have fun spending the night fighting off monsters and hoping you and your world can endure the damage that they do! Written in Python 3 with ❤. Fully open source!! 
 
-**THIS APP IS STILL IN BETA!!**
 
 ![Welcome Screen](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/doc/mainscreen.PNG)
 
