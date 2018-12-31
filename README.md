@@ -96,7 +96,7 @@ You can view the license in the [`Creative Commons Attribution 4.0 - Assets Lice
 #### The GUI is Copyright (C) 2016 - 2018:
 Mojang Development (some GUI copied from Minecraft: Windows 10 Edition Beta and then modified) and Derpyface Development Co. You can view the license file in [`assets\gui\GUI License.txt`](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/assets/gui/GUI%20License.txt). 
 
-####The Logos are Copyright (C) 2016 - 2018:
+#### The Logos are Copyright (C) 2016 - 2018:
 Derpyface Development Co. You can view the license file in [`logo\Logo License`](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/assets/logo/Logo License.txt).
 
 #### The Music is Copyright (C) 2016 -2018:
