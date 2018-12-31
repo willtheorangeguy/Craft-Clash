@@ -25,15 +25,6 @@ Enough said here, see more in the [game play section](https://github.com/Derpyfa
 - Double click the `main.py` file in File Explorer,
 - And the app will open for you to use!
 
-**THE FOLLOWING OPTION CURRENTLY DOES NOT WORK:** 
-
-### ~~Creating and Executable File with cx_Freeze (Windows Only)~~
-- Download cx_Freeze if you haven’t already: [Download Link](https://pypi.python.org/packages/38/ae/2cf4f13f42d54b01e26b0b713298722b351ca5a2408b2a77953be67ffb25/cx_Freeze-5.0.win32-py3.5.exe#md5=05e531d442cb9e27d093ca1ee37a03f4), and install it,
-- Extract the files from your GitHub download to this location on your computer: `C:\Users\YOUR_USERNAME`,
-- Open Command Prompt and type the following command: `python setup.py bdist_msi`
-- Run the .msi file that the process creates in a dist sub-directory to create an executable,
-- Run the executable and the app will open for you to use!
-
 ## Game Play Instructions
 **NOT ALL OF THE BUTTONS WORK RIGHT NOW, AS WE ARE STILL IN BETA**
 
