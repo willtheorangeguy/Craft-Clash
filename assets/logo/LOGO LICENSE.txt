@@ -1,0 +1,9 @@
+LOGO LICENSE
+============
+Logos Copyright (C) 2016 to 2018:
+Derpyface Developement Co., and Dog Face Developement Co.
+
+YOU MAY NOT CLAIM THE LOGO's AS YOUR OWN UNDER ANY CIRCUMSTANCES.
+YOU MAY NOT REDISTRIBUTE THE LOGO's OR USE THE LOGO's FOR ANYTHING WITHOUT WRITTEN CONFIRMATION FROM THE COMPANIES ABOVE, WHICH CAN BE CONTACTED ON GITHUB.COM.
+
+The Logos DO NOT follow either of the licenses included with the software. (Those licenses being: GNU General Public License (http://fsf.org/) and the Creative Commons Attribution 4.0 (creativecommons.org).
