@@ -1,6 +1,6 @@
 MUSIC LICENSE
 =============
-Music Copyright (C) 2015 to 2018:
+Music Copyright (C) 2015 to 2019:
 Mojang Developement AB (some music copied from Minecraft: Windows 10 Edition Beta), Derpyface Development Co., Dog Face Development Co., Dog Face Productions, Mr. Scruff, and Richard Stoltzman.
 
 The following music has been copied from Minecraft: Windows 10 Edition Beta:
