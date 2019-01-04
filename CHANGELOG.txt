@@ -3,9 +3,9 @@ CHANGELOG
 0.0.1 BETA - The Initial Version:
 ---------------------------------
 Initial Commit (AKA: Get this thing started!)
-Add GUI and PyModules
-Add Welcome Screen and Play Screen and Options Screen.
-Add logo
+Added GUI and PyModules
+Added Welcome Screen and Play Screen and Options Screen.
+Added logo
 
 0.0.2 BETA - The Name Change Version:
 -------------------------------------

@@ -1,4 +1,4 @@
-# Copyright (C) 2016 - 2018 Derpyface Developement Company
+# Copyright (C) 2016 - 2019 Derpyface Developement Company
 
 import sys
 from cx_Freeze import setup, Executable

@@ -1,5 +1,5 @@
 ﻿"""
-Copyright (C) 2016 - 2018
+Copyright (C) 2016 - 2019
 Derpyface Development Co. and Dog Face Development Co.
 
     This program is free software: you can redistribute it and/or modify
@@ -48,7 +48,7 @@ btn_options = Button(window, text = "Options", height = 3, width = 60, bd = 4, r
 options_img = Label(window, image = optionimg)
 btn_about = Button(window, text = "About", height = 3, width = 60, bd = 4, relief = RAISED, command = aboutscreen)
 about_img = Label(window, image = aboutimg)
-copyright_label = Label(window, text = "Copyright © 2016 - 2017 Derpyface Development Co. and Dog Face Development Co. \t\t\t Version 0.0.3 BETA")
+copyright_label = Label(window, text = "Copyright © 2016 - 2019 Derpyface Development Co. and Dog Face Development Co. \t\t\t Version 0.0.3 BETA")
 
 # Pack Statements
 title_label.grid(row = 1, column = 2, rowspan = 2, pady = 10)

@@ -1,7 +1,6 @@
 # CraftClash
 ![logo](https://github.com/Derpyface-Development-Co/Craft-Clash/raw/master/assets/logo/titlelogo.png)
 
-[![Build Status](https://travis-ci.org/Derpyface-Development-Co/Craft-Clash.svg?branch=BETA-v0.0.3)](https://travis-ci.org/Derpyface-Development-Co/Craft-Clash)
 ![Total Downloads](https://img.shields.io/github/downloads/Derpyface-Development-Co/Craft-Clash/total.svg)
 ![Release Version](https://img.shields.io/github/release/Derpyface-Development-Co/Craft-Clash.svg)
 ![Issues](https://img.shields.io/github/issues/Derpyface-Development-Co/Craft-Clash.svg)
@@ -24,6 +23,15 @@ Enough said here, see more in the [game play section](https://github.com/Derpyfa
 - Extract the files from your GitHub Download,
 - Double click the `main.py` file in File Explorer,
 - And the app will open for you to use!
+
+**THE FOLLOWING OPTION CURRENTLY DOES NOT WORK:** 
+
+### ~~Creating and Executable File with cx_Freeze (Windows Only)~~
+- Download cx_Freeze if you haven’t already: [Download Link](https://pypi.python.org/packages/38/ae/2cf4f13f42d54b01e26b0b713298722b351ca5a2408b2a77953be67ffb25/cx_Freeze-5.0.win32-py3.5.exe#md5=05e531d442cb9e27d093ca1ee37a03f4), and install it,
+- Extract the files from your GitHub download to this location on your computer: `C:\Users\YOUR_USERNAME`,
+- Open Command Prompt and type the following command: `python setup.py bdist_msi`
+- Run the .msi file that the process creates in a dist sub-directory to create an executable,
+- Run the executable and the app will open for you to use!
 
 ## Game Play Instructions
 **NOT ALL OF THE BUTTONS WORK RIGHT NOW, AS WE ARE STILL IN BETA**
@@ -84,8 +92,10 @@ Our assets are copyright and license under the *Creative Commons Attribution 4.0
 
 You can view the license in the [`Creative Commons Attribution 4.0 - Assets License.txt`](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/assets/Creative%20Commons%20Attribution%204.0%20-%20Assets%20License.txt) file in the assets folder.
 
-#### The GUI is Copyright (C) 2016 - 2018:
-Mojang Development (some GUI copied from Minecraft: Windows 10 Edition Beta and then modified) and Derpyface Development Co. You can view the license file in [`assets\gui\GUI License.txt`](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/assets/gui/GUI%20License.txt). 
+#### The UI is Copyright (C) 2016 - 2018:
+Mojang Development (some UI icons and pictures copied from Minecraft: Windows 10 Edition Beta and then modified ) and Derpyface Development Co. You can view the license file in [`assets\gui\GUI License.txt`](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/assets/gui/GUI%20License.txt). 
+
+Icons for the UI on the main screen, play screen and options screen are a part of [Open Icons](https://useiconic.com/open).
 
 #### The Logos are Copyright (C) 2016 - 2018:
 Derpyface Development Co. You can view the license file in [`logo\Logo License`](https://github.com/Derpyface-Development-Co/Craft-Clash/blob/master/assets/logo/Logo License.txt).

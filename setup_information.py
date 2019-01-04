@@ -1,4 +1,4 @@
-# Copyright (C) 2016 - 2018 Derpyface Developement Company
+# Copyright (C) 2016 - 2019 Derpyface Developement Company
 
 setup( name = 'CraftClash',
        version = '0.0.3 BETA',
