@@ -1,6 +1,6 @@
 TEXTURES LICENSE
 ================
-Textures Copyright (C) 2016 to 2018:
+Textures Copyright (C) 2016 to 2019:
 Mojang Development AB (some textures copied from Minecraft: Windows 10 Edition Beta and modified), Derpyface Development Co., and Dog Face Development Co.
 
 The following music has been copied from Minecraft: Windows 10 Edition Beta and then modified:

@@ -1,4 +1,4 @@
-# Copyright (C) 2016 - 2018 Derpyface Developement Company
+# Copyright (C) 2016 - 2019 Derpyface Developement Company
 # Health Points: Each mob will do a certian amount of damage to health points, if health points = 0 then the fence breaks
 copper_fence:
 	crafting_recipe:
