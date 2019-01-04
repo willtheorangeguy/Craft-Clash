@@ -1,6 +1,6 @@
 GUI LICENSE
 ===========
-GUI Copyright (C) 2016 to 2018:
+GUI Copyright (C) 2016 to 2019:
 Mojang Developement AB (some GUI based off Minecraft: Windows 10 Edition GUI), Derpyface Developement Co. and Dog Face Developement Co.
 The following GUI is based off Minecraft GUI:
 - All GUI in the `assets/gui` folder has been copied and edited from Minecraft: Windows 10 Edition.
