@@ -1,5 +1,5 @@
 """
-Copyright (C) 2016 Necti Co. and Dog Face Development Co.
+Copyright (C) 2016-2019 Necti Co. and Dog Face Development Co.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -38,7 +38,7 @@ titlelabel = Label(window, image = titleimg)
 btn_play = Button(window, text = "Play!", height = 3, width = 60, bd = 4, relief = RAISED, command = exit)
 btn_options = Button(window, text = "Options", height = 3, width = 60, bd = 4, relief = RAISED, command = exit)
 btn_exit = Button(window, text = "Exit", height = 3, width = 60, bd = 4, relief = RAISED, command = exit)
-copyright_label = Label(window, text = "Copyright (C) 2016 Necti Co. and Dog Face Development Co. \t\t\t Version 0.0.1 BETA")
+copyright_label = Label(window, text = "Copyright (C) 2016-2019 Necti Co. and Dog Face Development Co. \t\t\t Version 0.0.1 BETA")
 
 # Pack Statements
 titlelabel.pack(side = TOP, pady = 20)
