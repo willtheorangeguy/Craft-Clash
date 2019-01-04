@@ -1,5 +1,5 @@
 """
-Copyright (C) 2016 Necti Co. and Dog Face Development Co.
+Copyright (C) 2016-2019 Derpyface Development Co. and Dog Face Development Co.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -30,10 +30,10 @@ import turtle
 def playscreen():
     # Window Elements
     window = Tk()
-    window.title("Craft Clash - Windows - 0.0.1 BETA - Play!")
+    window.title("CraftClash - Windows - 0.0.2 BETA - Play!")
     window.resizable(0,0)
     # Widgets
-    worldoneimg = PhotoImage(file = "D:/William/Documents/Necti Co/CraftClash/BETA_V1.0/assets/logo/titlethumbnail.gif") # Change absolute path on you own computer to the assets/logo/titlethumbnail.gif, for more infor se the README.
+    worldoneimg = PhotoImage(file = "titlethumbnail.gif")
     btn_createnewworld = Button(window, text = "Create New World!", height = 2, width = 80, command = exit)
     worldinfo = Label(window, text= "We have already created a world for you to play in. \n You can create another world by clicking the 'Create New World!' button at the top of the screen") 
     btn_worldone = Button(window, text = "World 1", height = 4, width = 50, command = exit)
