@@ -11,7 +11,7 @@ EXCEPT:
 - `calm4.mp3`
 
 The following music is copyright Dog Face Productions, under written permission:
-- `fun.m4a` Copyright (C) 2015 - 2018 William Vandergraaf and Dog Face Productions
+- `fun.m4a` Copyright (C) 2015 - 2018 willtheorangeguy and Dog Face Productions
 
 The following music is copyright Mr. Scruff and is used without written permission:
 - `fun2.mp3` Copyright (C) Mr. Scruff, Original Song Title: "Kalimba", Album: Ninja Tuna, Song #: 1
