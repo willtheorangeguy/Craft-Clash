@@ -1,9 +1,0 @@
-GUI LICENSE
-===========
-GUI Copyright (C) 2016 to 2019:
-Mojang Developement AB (some GUI based off Minecraft: Windows 10 Edition GUI), Derpyface Developement Co. and Dog Face Developement Co.
-The following GUI is based off Minecraft GUI:
-- All GUI in the `assets/gui` folder has been copied and edited from Minecraft: Windows 10 Edition.
-
-YOU MAY NOT CLAIM THE GUI AS YOUR OWN UNDER ANY CIRCUMSTANCES WITHOUTH COMFORMATION FROM ONE OF THE ABOVE COMPANIES, WHICH CAN BE CONTACTED ON GITHUB.COM.
-The GUI is licensed under the GNU GENERAL PUBLIC LICENSE (http://fsf.org/) and the CREATIVE COMMONS ATTRIBUTION 4.0(creativecommons.org). Both can be found in along with the code and at the websites listed.

@@ -1,0 +1,7 @@
+{ 
+    "name": "Wood Fence",
+    "crafting_ingredient1": "1 stone",
+    "crafting_ingredient2": "6 wood",
+    "crafting_result": "4",
+    "health_points": "6"
+}

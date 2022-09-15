@@ -1,0 +1,7 @@
+{ 
+    "name": "Stone Fence",
+    "crafting_ingredient1": "8 stone",
+    "crafting_ingredient2": "1 copper",
+    "crafting_result": "4",
+    "health_points": "12"
+}

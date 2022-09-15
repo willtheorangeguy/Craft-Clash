@@ -1,0 +1,7 @@
+{ 
+    "name": "Copper Fence",
+    "crafting_ingredient1": "6 copper",
+    "crafting_ingredient2": "2 wood",
+    "crafting_result": "4",
+    "health_points": "18"
+}
