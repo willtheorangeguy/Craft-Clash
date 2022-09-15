@@ -1,0 +1,33 @@
+name: Pylint
+
+on: [push]
+
+permissions:
+  checks: write
+  pull-requests: write
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.9"]
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pylint
+    - name: Analysing the code with pylint
+      run: |
+        pylint $(git ls-files '*.py')
+    - uses: smelly-python/smell-my-pr@main
+      with: 
+        github-token: ${{secrets.GITHUB_TOKEN}}
+        command: pipenv run smelly-python -d src
+        
