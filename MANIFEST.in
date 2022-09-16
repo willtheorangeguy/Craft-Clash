@@ -1,0 +1,4 @@
+include assets/logo/*
+include assets/sounds/*
+include assets/textures/*
+include craftclash/*
