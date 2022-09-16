@@ -1,6 +1,5 @@
 ﻿"""
-Copyright (C) 2016 - 2019
-Derpyface Development Co. and Dog Face Development Co.
+Copyright (C) 2017-2022 Dog Face Development Co.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -16,12 +15,7 @@ Derpyface Development Co. and Dog Face Development Co.
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 
-## All rights reserved.
-
-"""
-CRAFTCLASH
-Main project file.
-"""
+# Main program window.
 
 # Import Statements
 from tkinter import *
@@ -31,7 +25,7 @@ from craftclash.aboutscreen import *
 
 # Window Elements
 window = Tk()
-window.title("CraftClash - Windows - 0.0.3 BETA")
+window.title("CraftClash - Windows - 0.0.4 BETA")
 window.configure(bg = "sky blue")
 
 # Images
@@ -48,7 +42,7 @@ btn_options = Button(window, text = "Options", height = 3, width = 60, bd = 4, r
 options_img = Label(window, image = optionimg)
 btn_about = Button(window, text = "About", height = 3, width = 60, bd = 4, relief = RAISED, command = aboutscreen)
 about_img = Label(window, image = aboutimg)
-copyright_label = Label(window, text = "Copyright © 2016 - 2019 Derpyface Development Co. and Dog Face Development Co. \t\t\t Version 0.0.3 BETA")
+copyright_label = Label(window, text = "Copyright © 2017 - 2022 Dog Face Development Co. \t\t\t Version 0.0.4 BETA")
 
 # Pack Statements
 title_label.grid(row = 1, column = 2, rowspan = 2, pady = 10)
