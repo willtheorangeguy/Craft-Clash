@@ -44,7 +44,7 @@
 
 <!-- Screenshot(s) -->
 <div align="center">
-  <img src="https://github.com/Dog-Face-Development/Craft-Clash/blob/main/docs/images/mainscreen.png">
+  <img src="https://raw.githubusercontent.com/Dog-Face-Development/Craft-Clash/main/docs/images/mainscreen.PNG">
 </div>
 
 ## Key Features
@@ -140,9 +140,9 @@ This software uses the following open source packages, projects, services or web
     <td align="center"><a href="https://bdcraft.net/reco-cubik-studio/">Web</a></td>
   </tr>
     <tr>
-    <th align="center"><img src="https://store-images.s-microsoft.com/image/apps.24379.14170710832825752.0337f199-11f5-4ef1-848d-cfb7a32bb128.bee3afcb-7319-4c21-b5bf-066fd35a6f1e" width="150" height="150" alt="Microsoft Paint"/></th>
+    <th align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Microsoft_Paint.svg/2048px-Microsoft_Paint.svg.png" width="150" height="150" alt="Microsoft Paint"/></th>
     <th align="center"><img src="https://pbs.twimg.com/profile_images/454744766836527104/AmyB7c-a_400x400.png" width="150" height="150" alt="Piskel"/></th>
-    <th align="center"><img src="https://www.minecraft.net/content/dam/games/minecraft/logos/Mojang2020Logo.png" width="150" height="150" alt="Minecraft"/></th>
+    <th align="center"><img src="https://pbs.twimg.com/profile_images/1559209238076919809/H57ucjs2_400x400.jpg" width="150" height="150" alt="Minecraft"/></th>
     <th align="center"><img src="https://www.sir-apfelot.de/wp-content/uploads/2022/06/terraria-logo-1024x1024.jpg" width="150" height="150" alt="Terraria"/></th>
   </tr>
   <tr>
