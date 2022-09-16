@@ -1,0 +1,31 @@
+[build-system]
+build-backend = "setuptools.build_meta"
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "CraftClash"
+version = "0.4.0"
+authors = [
+  { name= "willtheorangeguy" },
+]
+description = "A game that is a cross of Minecraft and Clash of Clans, written in Python!"
+readme = "README.md"
+license = { file="LICENSE.md" }
+requires-python = ">=3.9"
+classifiers = [
+    'Development Status :: 3 - Alpha',
+    'License :: OSI Approved :: GNU General Public License v3 (GPLv3)',
+    'Natural Language :: English',
+    'Operating System :: OS Independent',
+    'Topic :: Games/Entertainment',
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Dog-Face-Development/Craft-Clash"
+"Bug Tracker" = "https://github.com/Dog-Face-Development/Craft-Clash/issues"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+where = ["craftclash"]

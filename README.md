@@ -1,117 +1,174 @@
-# CraftClash
-![logo](https://github.com/Derpyface-Development-Co/Craft-Clash/raw/master/assets/logo/titlelogo.png)
+<!-- Logo -->
+<h1 align="center">
+  <img src="https://github.com/Dog-Face-Development/Craft-Clash/blob/main/docs/images/logo.png" height="250px" width="400px" alt="CraftClash">
+  <br>
+  CraftClash
+  <br>
+</h1>
 
-![Total Downloads](https://img.shields.io/github/downloads/willtheorangeguy/Craft-Clash/total.svg)
-![Release Version](https://img.shields.io/github/release/willtheorangeguy/Craft-Clash.svg)
-![Issues](https://img.shields.io/github/issues/willtheorangeguy/Craft-Clash.svg)
-![Pull Requests](https://img.shields.io/github/issues-pr/willtheorangeguy/Craft-Clash.svg)
-![Contributors](https://img.shields.io/github/contributors/willtheorangeguy/Craft-Clash.svg)
-![License](https://img.shields.io/github/license/willtheorangeguy/Craft-Clash.svg)
+<!-- Copy -->
+<h4 align="center">Spend the day upgrading your buildings and walls, craft new items and tend to your world. Have fun spending the night fighting off monsters and hoping you and your world can endure the damage that they do!</h4>
 
-A dynamic cross of [Clash of Clans](http://supercell.com/en/games/clashofclans/) and [Minecraft](https://minecraft.net/en/). Spend the day upgrading your buildings and walls, craft new items and tend to your world. Have fun spending the night fighting off monsters and hoping you and your world can endure the damage that they do! Written in Python 3 with ❤. Fully open source!! 
+<!-- Badges -->
+<div align="center">
+  <!-- Stability -->
+  <img alt="PyPI Build State" src="https://github.com/Dog-Face-Development/Craft-Clash/actions/workflows/push-to-pypi.yml/badge.svg">
+  <!-- Stability -->
+  <img alt="Pylint State" src="https://github.com/Dog-Face-Development/Craft-Clash/actions/workflows/pylint.yml/badge.svg">
+  <!-- CodeQL -->
+  <img alt="CodeQL State" src="https://github.com/Dog-Face-Development/Craft-Clash/actions/workflows/codeql-analysis.yml/badge.svg">
+  <!-- Version -->
+  <img alt="GitHub Version" src="https://img.shields.io/github/v/release/Dog-Face-Development/Craft-Clash?include_prereleases">
+  <!-- Issues -->
+  <img alt="GitHub Issues" src="https://img.shields.io/github/issues/Dog-Face-Development/Craft-Clash">
+  <!-- Pull Requests -->
+  <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Dog-Face-Development/Craft-Clash">
+  <!-- Discord -->
+  <img alt="Discord Server ID" src="https://img.shields.io/discord/1020201775153811516">
+  <!-- Downloads -->
+  <img alt="Downloads" src="https://img.shields.io/github/downloads/Dog-Face-Development/Craft-Clash/total">
+  <!-- Language Count -->
+  <img alt="GitHub Languages" src="https://img.shields.io/github/languages/count/Dog-Face-Development/Craft-Clash">
+</div>
 
-**THIS APP IS STILL IN BETA!!**
+<!-- Navigation -->
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#download">Download</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#support">Support</a> •
+  <a href="#contributing">Contributing</a> •
+  <a href="#changelog">Changelog</a> •
+  <a href="#credits">Credits & Contributors</a>
+</p>
 
-![Welcome Screen](https://github.com/willtheorangeguy/Craft-Clash/blob/master/doc/mainscreen.PNG)
+<!-- Screenshot(s) -->
+<div align="center">
+  <img src="https://github.com/Dog-Face-Development/Craft-Clash/blob/main/docs/images/mainscreen.png">
+</div>
 
-You can craft items to fight monsters such as swords and bows, pickaxes and shovels to mine minerals and other items and ores to create fences and walls to protect your buildings. Use your pickax or shovel to find minerals underground such as coal and iron ore. Then use your coal to turn the iron ore into iron nuggets. Now using your iron you can build some Iron Armour and a Iron Sword to fight the monsters at night, gaining elixir to upgrade your walls that way you are safe from other monster attacks.
-Enough said here, see more in the [game play section](https://github.com/willtheorangeguy/Craft-Clash#game-play-instructions) or the [wiki](https://github.com/willtheorangeguy/Craft-Clash/wiki). 
+## Key Features
 
-## Installation Instructions
-### Through the Python Module (IDLE)
-- Download the Python module if you haven’t already: [Download Link](https://www.python.org/downloads), and install it,
-- Extract the files from your GitHub Download,
-- Double click the `main.py` file in File Explorer,
-- And the app will open for you to use!
+* Based of modern games.
+* A dynamic cross of [Clash of Clans](http://supercell.com/en/games/clashofclans/) and [Minecraft](https://minecraft.net/en/).
+* One world per install.
+* Minecraft like look.
+* Includes features from SuperCell games.
+* Options screen for customization.
+* Cross platform.
 
-**THE FOLLOWING OPTION CURRENTLY DOES NOT WORK:** 
+> You craft items to fight monsters such as swords and bows, pickaxes and shovels to mine minerals, and other items and ores to create fences
+> and walls to protect your buildings. Use your pickax or shovel to find coal and iron ore underground! Then, use your coal to turn the iron
+> ore into iron nuggets. Finally, using your iron you can build Iron Armour and a Iron Sword to fight the monsters at night, gaining elixir
+> to upgrade your walls, saving you from additional monster attacks.
 
-### ~~Creating and Executable File with cx_Freeze (Windows Only)~~
-- Download cx_Freeze if you haven’t already: [Download Link](https://pypi.python.org/packages/38/ae/2cf4f13f42d54b01e26b0b713298722b351ca5a2408b2a77953be67ffb25/cx_Freeze-5.0.win32-py3.5.exe#md5=05e531d442cb9e27d093ca1ee37a03f4), and install it,
-- Extract the files from your GitHub download to this location on your computer: `C:\Users\YOUR_USERNAME`,
-- Open Command Prompt and type the following command: `python setup.py bdist_msi`
-- Run the .msi file that the process creates in a dist sub-directory to create an executable,
-- Run the executable and the app will open for you to use!
+## Download
 
-## Game Play Instructions
-**NOT ALL OF THE BUTTONS WORK RIGHT NOW, AS WE ARE STILL IN BETA**
+You can **[download](https://github.com/Dog-Face-Development/Craft-Clash/releases/latest) the source code** to run the game from the command line on Windows, macOS and Linux. **This will require [Python](https://www.python.org/downloads/).**
 
-After you have opened the app using the above option. You will see the apps main interface (UI). There are three buttons, two of which work right now. The *Play!* button currently does not work but will launch you into your world when it works. Yes there is only one world! We did this that way we could ship our first version of our software faster. The *Options* button will bring you to the options screen which currently lets you change the volume of the game sounds, the volume of the music, edit your in game name, and change your difficulty. The *About* button will bring you to a screen where you can learn more about the game and about its copyright info.
+You can **[download](https://github.com/Dog-Face-Development/Craft-Clash/releases/latest) the latest executable launcher** of CraftClash for Windows. **This does not require Python.**
 
-![Options Screen](https://github.com/willtheorangeguy/Craft-Clash/blob/master/doc/optionsscreen.PNG)
+## How To Use
 
-![About Screen](https://github.com/willtheorangeguy/Craft-Clash/blob/master/doc/aboutscreen.PNG)
+To run the application, you can use [Git and the Python Interpreter](https://github.com/Dog-Face-Development/Craft-Clash/main/README.md#git), which allows you to clone and run the application, or [`pip`](https://github.com/Dog-Face-Development/Craft-Clash/main/README.md#pip) to create a command line application.
 
+### Git
 
-To find more information about how to play the game, such as crafting recipes for the world and keyboard controls, see the [wiki](https://github.com/willtheorangeguy/Craft-Clash/wiki). 
+To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [Python](https://www.python.org/downloads/) installed on your computer. If you would rather not use Git, you can just download the script from GitHub above. From your command line:
 
-## Releases
-**WE ARE STILL IN BETA. SOME FEATURES DO NOT WORK!**
+```bash
+# Clone this repository
+$ git clone https://github.com/Dog-Face-Development/Craft-Clash
 
-The current release is *BETA v0.0.3*. The next release, version *BETA v0.0.4* is coming out soon with the following features:
-- New Website written in HTML an CSS, not Markdown for CraftClash.
-- Updates to the README.md (major point on new install instructions, but also a major overhaul).
-- Initiation and completion of the wiki.
+# Go into the repository
+$ cd Craft-Clash
 
-Your [Pull Requests](https://github.com/willtheorangeguy/Craft-Clash/pulls) for new features are always welcome! Look to see some of your suggestions in upcoming updates.
+# Run the Game!
+$ python main.py
+```
 
-## Bugs and Issues
-Because this app is still in beta there are lots of things that don't work yet and we are still fixing them, but we need your help too.
+### `pip`
 
-Who likes bugs? If you’ve found any feel free to let us know on the [issues page](https://github.com/willtheorangeguy/Craft-Clash/issues) and we will make sure to fix them in short order, and release those fixes in new releases.
+You can install the program from the [Python Package Index](https://pypi.org/project/CraftClash/) through `pip`.
 
-**Note:** Please check the known issues list below before posting an issue to see if your issue is already on the list!
-- The *Play!* button doesn't work. (Not a bug, we haven't got there yet!)
-- Options screen automatically opens after starting the program.
-- About screen automatically opens after starting the program.
+```bash
+# Install via pip
+$ pip install craftclash
+
+# Run the Game!
+$ craftclash
+```
+
+## Support
+
+When you launch the app you will see the app's welcome interface, containing three buttons. The **Play!** button launches you into your world. The **Options** button brings you to the settings screen which currently lets you change the volume of the game sounds, the volume of the music, edit your in game name, and change your difficulty. The **About** button brings you to a screen where you can learn more about the game and its internal workings.
+
+More documentation is available in the **[Documentation](https://github.com/Dog-Face-Development/Craft-Clash/tree/main/docs)** and on the **[Wiki](https://github.com/Dog-Face-Development/Craft-Clash/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/Dog-Face-Development/Craft-Clash/discussions/new)** or join our **[Discord](https://discord.gg/vdaABVxGHf)**.
 
 ## Contributing
-If you are going to contribute please check out the `PLANNING.txt` document for things that we need help with! One thing that we do need right now is help with Travis CI or Circle CI continuous integration.
 
-## Maintainers (Speacial thanks to you!)
-- [@willtheorangeguy](https://github.com/willtheorangeguy)
-- [@Dog-Face-Developement](https://github.com/dog-face-development)
+Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/Dog-Face-Development/Craft-Clash/compare).
 
-## License & Legal Stuff
-### License
-This software has been released as open-source under the *GNU General Public License V3.0* license.
+Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us (including how to sign our CLA).
 
-You can view the license in the [`LICENSE.md`](https://github.com/willtheorangeguy/Craft-Clash/blob/master/LICENSE) file in this projects repository.
+## Changelog
 
-By using this software you agree to this license. Please adhere to this license when using, distributing, and making changes to the software.
+See the [`CHANGELOG`](CHANGELOG.md) file for details.
 
-### EULA (End User License Agreement)
-Before using and downloading the program you must agree to the EULA (End User License Agreement) and the license. The EULA contains the Terms and Conditions of the program, the Privacy Policy, along with other Legal stuff.
+## Credits
 
-You can view the EULA in the [`EULA.txt`](https://github.com/willtheorangeguy/Craft-Clash/blob/master/EULA.txt) file in this projects repository.
+This software uses the following open source packages, projects, services or websites:
 
-### Assets
-Our assets are copyright and license under the *Creative Commons Attribution 4.0 International* license. 
+<!-- Credits Table -->
+<table>
+  <tr>
+    <th align="center"><img src="https://applets.imgix.net/https%3A%2F%2Fassets.ifttt.com%2Fimages%2Fchannels%2F2107379463%2Ficons%2Fmonochrome_large.png?w=240&h=240&s=8a19bbc158996d098e2fb18310ba7f33" width="150" height="150" alt="GitHub"/></th>
+    <th align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/182px-Python-logo-notext.svg.png" width="150" height="150" alt="PSF"/></th>
+    <th align="center"><img src="https://pyinstaller.readthedocs.io/en/v4.2/_static/pyinstaller-draft1a.ico" width="150" height="150" alt="PyInstaller"/></th>
+    <th align="center"><img src="https://pbs.twimg.com/profile_images/871321943219347457/WJRtI_QH_400x400.jpg" width="150" height="150" alt="BDCraft"/></th>
+  </tr>
+  <tr>
+    <td align="center">GitHub</td>
+    <td align="center">Python Software Foundation</td>
+    <td align="center">PyInstaller</td>
+    <td align="center">BDCraft Cubix</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/">Web</a> - <a href="https://github.com/pricing">Plans</a></td>
+    <td align="center"><a href="https://www.python.org/">Web</a> - <a href="https://psfmember.org/civicrm/contribute/transact?reset=1&id=2">Donate</a></td>
+    <td align="center"><a href="https://pyinstaller.readthedocs.io/en/stable/">Web</a> - <a href="https://www.pyinstaller.org/funding.html#funding-by-individuals">Donate</a></td>
+    <td align="center"><a href="https://bdcraft.net/reco-cubik-studio/">Web</a></td>
+  </tr>
+    <tr>
+    <th align="center"><img src="https://store-images.s-microsoft.com/image/apps.24379.14170710832825752.0337f199-11f5-4ef1-848d-cfb7a32bb128.bee3afcb-7319-4c21-b5bf-066fd35a6f1e" width="150" height="150" alt="Microsoft Paint"/></th>
+    <th align="center"><img src="https://pbs.twimg.com/profile_images/454744766836527104/AmyB7c-a_400x400.png" width="150" height="150" alt="Piskel"/></th>
+    <th align="center"><img src="https://www.minecraft.net/content/dam/games/minecraft/logos/Mojang2020Logo.png" width="150" height="150" alt="Minecraft"/></th>
+    <th align="center"><img src="https://www.sir-apfelot.de/wp-content/uploads/2022/06/terraria-logo-1024x1024.jpg" width="150" height="150" alt="Terraria"/></th>
+  </tr>
+  <tr>
+    <td align="center">Microsoft Paint</td>
+    <td align="center">Piskel</td>
+    <td align="center">Minecraft</td>
+    <td align="center">Terraria</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://apps.microsoft.com/store/detail/paint/9PCFS5B6T72H?hl=en-us&gl=us">Web</a></td>
+    <td align="center"><a href="https://www.piskelapp.com/">Web</a></td>
+    <td align="center"><a href="https://www.minecraft.net/en-us">Web</a> - <a href="https://www.minecraft.net/get-minecraft">Buy</a></td>
+    <td align="center"><a href="https://terraria.org/">Web</a> - <a href="https://store.steampowered.com/app/105600/">Buy</a></td>
+  </tr>
+</table>
 
-You can view the license in the [`Creative Commons Attribution 4.0 - Assets License.txt`](https://github.com/willtheorangeguy/Craft-Clash/blob/master/assets/Creative%20Commons%20Attribution%204.0%20-%20Assets%20License.txt) file in the assets folder.
+## Contributors
 
-#### The UI is Copyright (C) 2016 - 2018:
-Mojang Development (some UI icons and pictures copied from Minecraft: Windows 10 Edition Beta and then modified ) and Derpyface Development Co. You can view the license file in [`assets\gui\GUI License.txt`](https://github.com/willtheorangeguy/Craft-Clash/blob/master/assets/gui/GUI%20License.txt). 
+* [@willtheorangeguy](https://github.com/willtheorangeguy) - Sponsor on [PayPal](https://paypal.me/wvdg44?country.x=CA&locale.x=en_US)
 
-Icons for the UI on the main screen, play screen and options screen are a part of [Open Icons](https://useiconic.com/open).
+## You may also like...
 
-#### The Logos are Copyright (C) 2016 - 2018:
-Derpyface Development Co. You can view the license file in [`logo\Logo License`](https://github.com/willtheorangeguy/Craft-Clash/blob/master/assets/logo/Logo License.txt).
+* [ProgramVer](https://github.com/Dog-Face-Development/ProgramVer) - An open-source, Python GUI version window to show copyright info and licenses.
+* [PyWorkout](https://github.com/Dog-Face-Development/PyWorkout) - A minimal CLI to keep you inspired during your workout!
+* [Periodic-Table-Info](https://github.com/Dog-Face-Development/Periodic-Table-Info) - Print all the elements in the Periodic Table of the Elements, with an interactive prompt to learn more.
 
-#### The Music is Copyright (C) 2016 -2018:
-Mojang Developemt (some music copied from Minecraft: Windows 10 Edition Beta and then modified) and Derpyface Development Co. You can vies the license file in [`assets\music\music License.txt`](https://github.com/willtheorangeguy/Craft-Clash/blob/master/assets/music/music%20License.txt).   
-The following songs are copyright by the following individual people:   
-*fun.m4a Copyright (C) 2015 - 2018 William V.*   
-*fun2.mp3 Copyright (C) Mr. Scruff (Album: Ninja Tuna, #1)*    
-*calm4.mp3 Copyright (C) Richard Stoltzman, and Slovak Radio Symphony Orchestra (Album: Fine Music, Vol. 1, #2)*
+## License
 
-#### The Textures are Copyright (C) 2016 - 2018:
-Derpyface Development Co. and Mojang Development. Some textures copied from Minecraft and Terraria texture packs. The textures have been made with: BDCraft Cubix, Microsoft Paint, and [Piskel](https://piskelapp.com). You can view the license file in [`assets\textures\Textures_Info`](https://github.com/willtheorangeguy/Craft-Clash/blob/master/assets/textures/Textures_Info.txt).
-
-#### Learn More:
-You can learn more about the licensing and legal stuff in the [wiki](https://github.com/willtheorangeguy/Craft-Clash/wiki). 
-
-## Other Links
-Visit these other links to learn more about *CraftClash*:
-
-[The Website](https://github.com/willtheorangeguy/Craft-Clash/), [Latest Version Download](https://github.com/willtheorangeguy/Craft-Clash/archive/beta-v0.0.3.zip), [Issues Page](https://github.com/willtheorangeguy/Craft-Clash/issues), [Pull Request Page](https://github.com/willtheorangeguy/Craft-Clash/pulls), [Wiki](https://github.com/willtheorangeguy/Craft-Clash/wiki), and [Documentation](https://github.com/willtheorangeguy/Craft-Clash/blob/master/README.md).
+This project (including its non-code assets) is licensed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html) - see the [`LICENSE`](LICENSE.md) file for details. See the [Privacy Policy](https://github.com/Dog-Face-Development/Craft-Clash/blob/master/docs/legal/PRIVACY.md), [Terms and Conditions](https://github.com/Dog-Face-Development/Craft-Clash/blob/master/docs/legal/TERMS.md), and [EULA](https://github.com/Dog-Face-Development/Craft-Clash/blob/master/docs/legal/EULA.md) for legal information.
