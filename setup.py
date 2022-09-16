@@ -22,7 +22,7 @@ setup(
     packages=find_packages(where="craftclash"),
     package_dir={"": "craftclash"},
     include_package_data=True,
-    py_modules = ['main', 'aboutscreen', 'optionsscreen', 'playscreen.old', 'craftclash/aboutscreen', 'craftclash/optionsscreen', 'craftclash/playscreen.old'],
+    py_modules = ['main', 'aboutscreen', 'optionsscreen', 'playscreen.old'],
     entry_points={
         'console_scripts': [
             'craftclash=main:craftclash'
