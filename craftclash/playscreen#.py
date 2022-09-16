@@ -1,5 +1,5 @@
 """
-Copyright (C) 2016-2019 Derpyface Development Co. and Dog Face Development Co.
+Copyright (C) 2017-2022 Dog Face Development Co.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -14,12 +14,8 @@ Copyright (C) 2016-2019 Derpyface Development Co. and Dog Face Development Co.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
-## All rights reserved.
-"""
-CRAFTCLASH
-Play screen project file.
-This file is now discontinued and is no longer part of the program.
-"""
+
+# Creates the "Playscreen"
 
 # Import Statements
 from tkinter import *
@@ -55,5 +51,5 @@ def createworldscreen():
     # Widgets
     createnewworldinfo = Label(window, text = "Enter a name for your new world and select difficulty. \n\n Spawn in  world with randomly generated trees and try to survive the night by building up your walls and defending your castle from monsters.")
     worldnameframe = Frame(window)
-    worldnameentry = Entry(frame, width = 20)
+    worldnameentry = Entry(worldnameframe, width = 20)
     # Pack Statements
