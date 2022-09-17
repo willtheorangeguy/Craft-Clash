@@ -29,7 +29,7 @@ def optionsscreen():
 
     def gametagedit():
     # Widgets
-        box.showinfo("Name Change Completed Sucsessfully", "Thank you for changing your GameTag to: " + gametagentry.get())
+        box.showinfo("Name Change Completed Successfully", "Thank you for changing your GameTag to: " + gametagentry.get())
 
     # Widgets
     titlelabel = Label(window, text = "Welcome to the options screen. Here you can change the volume of the game,\n music and difficulty.")

@@ -543,7 +543,7 @@ work and works based on it.
 
   A patent license is "discriminatory" if it does not include within
 the scope of its coverage, prohibits the exercise of, or is
-onditioned on the non-exercise of one or more of the rights that are
+conditioned on the non-exercise of one or more of the rights that are
 specifically granted under this License.  You may not convey a covered
 work if you are a party to an arrangement with a third party that is
 in the business of distributing software, under which you make payment
@@ -553,7 +553,7 @@ parties who would receive the covered work from you, a discriminatory
 patent license (a) in connection with copies of the covered work
 conveyed by you (or copies made from those copies), or (b) primarily
 for and in connection with specific products or compilations that
-ontain the covered work, unless you entered into that arrangement,
+contain the covered work, unless you entered into that arrangement,
 or that patent license was granted, prior to 28 March 2007.
 
   Nothing in this License shall be construed as excluding or limiting
@@ -563,7 +563,7 @@ otherwise be available to you under applicable patent law.
   12. No Surrender of Others' Freedom.
 
   If conditions are imposed on you (whether by court order, agreement or
-therwise) that contradict the conditions of this License, they do not
+otherwise) that contradict the conditions of this License, they do not
 excuse you from the conditions of this License.  If you cannot convey a
 covered work so as to satisfy simultaneously your obligations under this
 License and any other pertinent obligations, then as a consequence you may
@@ -575,7 +575,7 @@ License would be to refrain entirely from conveying the Program.
   13. Use with the GNU Affero General Public License.
   Notwithstanding any other provision of this License, you have
 permission to link or combine any covered work with a work licensed
-nder version 3 of the GNU Affero General Public License into a single
+under version 3 of the GNU Affero General Public License into a single
 combined work, and to convey the resulting work.  The terms of this
 License will continue to apply to the part which is the covered work,
 but the special requirements of the GNU Affero General Public License,
@@ -592,7 +592,7 @@ address new problems or concerns.
   Each version is given a distinguishing version number.  If the
 Program specifies that a certain numbered version of the GNU General
 Public License "or any later version" applies to it, you have the
-ption of following the terms and conditions either of that numbered
+option of following the terms and conditions either of that numbered
 version or of any later version published by the Free Software
 Foundation.  If the Program does not specify a version number of the
 NU General Public License, you may choose any version ever published
@@ -1068,15 +1068,15 @@ def eula():
 
     # Widgets
     titlelabel = Label(window, text = "CraftClash EULA (End User License Agreement) \n\n")
-    eulalabel = Label(window, text = """By downloading CraftClash or another application by Dog Face Development Co. (the Software), you agree to the EULA, it's Terms & Conditions, and it's Privacy Policy. This document is an agreement between Dog Face Development Co. (the Companys) and you (the User).
+    eulalabel = Label(window, text = """By downloading CraftClash or another application by Dog Face Development Co. (the Software), you agree to the EULA, it's Terms & Conditions, and it's Privacy Policy. This document is an agreement between Dog Face Development Co. (the Company's) and you (the User).
 
 TERMS AND CONDITIONS:
 These terms apply to any piece of software developed or produced by the Company.
-This software is released as open-source under the GNU General Public License Version 4.0; the Assets (GUI, Textures, Music, etc.) are released under the Creative Commons Attrubution 4.0 License (the Licenses). You must agree to the Licenses in order to use or download the software. You can view all of the Licenses under their respective names in the repository or on the Software's website. 
-The Companys are NOT responsible for any damage that is caused to you or your computer because of using the software. This software is still in BETA, so unknown things and bugs may occur. This software has NO warranty.  We assume NO liability for damages. In no event shall the Companys be liable to you for any consequential, special, incidental or indirect damages of any kind arising out of the performance or use of the software, even if the Companys had been advised of the possibility of such damages. In no event will the Company's liability for any claim, whether in contract, tort or any other theory of liability, exceed the license fee paid by you, if any.
-The Companys reserve ALL rights. The Software may be terminated, or discontinued at ANY time WITHOUT notice. NOT ALL features of the Software are avalible in all places and in all languages. Some features may require an Internet Connection. 
+This software is released as open-source under the GNU General Public License Version 4.0; the Assets (GUI, Textures, Music, etc.) are released under the Creative Commons Attribution 4.0 License (the Licenses). You must agree to the Licenses in order to use or download the software. You can view all of the Licenses under their respective names in the repository or on the Software's website. 
+The Company's are NOT responsible for any damage that is caused to you or your computer because of using the software. This software is still in BETA, so unknown things and bugs may occur. This software has NO warranty.  We assume NO liability for damages. In no event shall the Company's be liable to you for any consequential, special, incidental or indirect damages of any kind arising out of the performance or use of the software, even if the Company's had been advised of the possibility of such damages. In no event will the Company's liability for any claim, whether in contract, tort or any other theory of liability, exceed the license fee paid by you, if any.
+The Company's reserve ALL rights. The Software may be terminated, or discontinued at ANY time WITHOUT notice. NOT ALL features of the Software are available in all places and in all languages. Some features may require an Internet Connection. 
 Exact copies of the software are not permitted. Changing the name and then copying all the other files is also not permitted. If you change the code and then redistribute the game or use some of the games code you must include all of the Licenses (GNU General Public License 4.0 and the MIT License, EULA (End User License Agreement), and the Creative Commons Attribution if copying the assets) and this EULA with the game package. 
-The Companys are NOT associated with GitHub, except for the fact that they host their source code and websites there. GitHub has no influence over the source code of CraftClash and is not responsible for it. 
+The Company's are NOT associated with GitHub, except for the fact that they host their source code and websites there. GitHub has no influence over the source code of CraftClash and is not responsible for it. 
 """)
     # horiztl_scrlbr = Scrollbar(window, orient = HORIZONTAL, command(SCROLL, -1, UNITS))
     quit_btn = Button(window, text = "I agree and Close", command = exit)
@@ -1096,7 +1096,7 @@ def aboutscreen():
     window.title("About CraftClash - CraftClash - Windows - 0.0.4 BETA")
 
     # Widgets
-    mainlabel = Label(window, text = "Welcome to the About page. Here you can read the license and find out more about the software!\n\n This software is (C) Copyright 2017 - 2022 by Dog Face Development. All rights reserved. \nThis software is also open source and can be found on GitHub here. \n\nThe software is released under the GNU General Public License. To view the license click the 'Read Project License' button below. \nThe assets (textures, music, GUI, etc.) is released under the Creative Commmons Attribution 4.0 License. To view the license click the 'Read Assets License' button below. \n More information about the licenses and other legal stuff can be found in the README.md")
+    mainlabel = Label(window, text = "Welcome to the About page. Here you can read the license and find out more about the software!\n\n This software is (C) Copyright 2017 - 2022 by Dog Face Development. All rights reserved. \nThis software is also open source and can be found on GitHub here. \n\nThe software is released under the GNU General Public License. To view the license click the 'Read Project License' button below. \nThe assets (textures, music, GUI, etc.) is released under the Creative Commons Attribution 4.0 License. To view the license click the 'Read Assets License' button below. \n More information about the licenses and other legal stuff can be found in the README.md")
     projectlicense_btn = Button(window, text = "Read Project License", command = projectlicense)
     assetslicense_btn = Button(window, text = "Read Assets License", command = assetslicense)
     eula_btn = Button(window, text = "Read the EULA", command = eula)
