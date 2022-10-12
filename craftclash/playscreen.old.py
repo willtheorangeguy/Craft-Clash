@@ -21,35 +21,44 @@ Copyright (C) 2017-2022 Dog Face Development Co.
 from tkinter import *
 import tkinter.messagebox as box
 import turtle
-    
+
 # Playscreen Function
 def playscreen():
     # Window Elements
     window = Tk()
     window.title("CraftClash - Windows - 0.0.2 BETA - Play!")
-    window.resizable(0,0)
+    window.resizable(0, 0)
     # Widgets
-    worldoneimg = PhotoImage(file = "titlethumbnail.gif")
-    btn_createnewworld = Button(window, text = "Create New World!", height = 2, width = 80, command = exit)
-    worldinfo = Label(window, text= "We have already created a world for you to play in. \n You can create another world by clicking the 'Create New World!' button at the top of the screen") 
-    btn_worldone = Button(window, text = "World 1", height = 4, width = 50, command = exit)
-    btn_worldoneimg = Button(window, image = worldoneimg)
+    worldoneimg = PhotoImage(file="titlethumbnail.gif")
+    btn_createnewworld = Button(
+        window, text="Create New World!", height=2, width=80, command=exit
+    )
+    worldinfo = Label(
+        window,
+        text="We have already created a world for you to play in. \n You can create another world by clicking the 'Create New World!' button at the top of the screen",
+    )
+    btn_worldone = Button(window, text="World 1", height=4, width=50, command=exit)
+    btn_worldoneimg = Button(window, image=worldoneimg)
     # Pack Statements
-    btn_createnewworld.pack(side = TOP)
-    worldinfo.pack(side = TOP, pady = 5)
-    btn_worldoneimg.pack(side = LEFT, padx = 5)
-    btn_worldone.pack(side = LEFT)
+    btn_createnewworld.pack(side=TOP)
+    worldinfo.pack(side=TOP, pady=5)
+    btn_worldoneimg.pack(side=LEFT, padx=5)
+    btn_worldone.pack(side=LEFT)
     # Sustain Window
     window.mainloop()
+
 
 # Create New World Function
 def createworldscreen():
     # Window Elements
     window = Tk()
     window.title("Creating New World")
-    window.resizable(0,0)
+    window.resizable(0, 0)
     # Widgets
-    createnewworldinfo = Label(window, text = "Enter a name for your new world and select difficulty. \n\n Spawn in  world with randomly generated trees and try to survive the night by building up your walls and defending your castle from monsters.")
+    createnewworldinfo = Label(
+        window,
+        text="Enter a name for your new world and select difficulty. \n\n Spawn in  world with randomly generated trees and try to survive the night by building up your walls and defending your castle from monsters.",
+    )
     worldnameframe = Frame(window)
-    worldnameentry = Entry(worldnameframe, width = 20)
+    worldnameentry = Entry(worldnameframe, width=20)
     # Pack Statements

@@ -24,11 +24,18 @@ from tkinter import *
 def projectlicense():
     # Window Statements
     window = Tk()
-    window.title("CraftClash Project License - About CraftClash - CraftClash - Windows - 0.0.4 BETA")
+    window.title(
+        "CraftClash Project License - About CraftClash - CraftClash - Windows - 0.0.4 BETA"
+    )
 
     # Widgets
-    titlelabel = Label(window, text = "GNU General Public License, Version 3.0: \n \n  Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/> \n \n")
-    licenselabel = Label(window, text = """ Preamble
+    titlelabel = Label(
+        window,
+        text="GNU General Public License, Version 3.0: \n \n  Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/> \n \n",
+    )
+    licenselabel = Label(
+        window,
+        text=""" Preamble
 
   The GNU General Public License is a free, copyleft license for
 software and other kinds of works.
@@ -640,26 +647,34 @@ an absolute waiver of all civil liability in connection with the
 Program, unless a warranty or assumption of liability accompanies a
 copy of the Program in return for a fee.
 
-                     END OF TERMS AND CONDITIONS """)
-    quit_btn = Button(window, text = "I agree and Close", command = exit)
+                     END OF TERMS AND CONDITIONS """,
+    )
+    quit_btn = Button(window, text="I agree and Close", command=exit)
 
     # Pack Statements
-    titlelabel.pack(side = TOP)
-    licenselabel.pack(side = TOP)
-    quit_btn.pack(side = BOTTOM)
+    titlelabel.pack(side=TOP)
+    licenselabel.pack(side=TOP)
+    quit_btn.pack(side=BOTTOM)
 
-    #Sustain Window
+    # Sustain Window
     window.mainloop()
+
 
 # assetslicense_btn Function
 def assetslicense():
     # Window Statements
     window = Tk()
-    window.title("CraftClash Assets License - About CraftClash - CraftClash - Windows - 0.0.4 BETA")
+    window.title(
+        "CraftClash Assets License - About CraftClash - CraftClash - Windows - 0.0.4 BETA"
+    )
 
     # Widgets
-    titlelabel = Label(window, text = "Creative Commons Attribution 4.0 International \n\n")
-    licenselabel = Label(window, text = """ Creative Commons Corporation ("Creative Commons") is not a law firm and
+    titlelabel = Label(
+        window, text="Creative Commons Attribution 4.0 International \n\n"
+    )
+    licenselabel = Label(
+        window,
+        text=""" Creative Commons Corporation ("Creative Commons") is not a law firm and
 does not provide legal services or legal advice. Distribution of
 Creative Commons public licenses does not create a lawyer-client or
 other relationship. Creative Commons makes its licenses and related
@@ -1049,26 +1064,32 @@ understandings, or agreements concerning use of licensed material. For
 the avoidance of doubt, this paragraph does not form part of the
 public licenses.
 
-Creative Commons may be contacted at creativecommons.org. """)
-    quit_btn = Button(window, text = "I agree and Close", command = exit)
+Creative Commons may be contacted at creativecommons.org. """,
+    )
+    quit_btn = Button(window, text="I agree and Close", command=exit)
 
     # Pack Statements
-    titlelabel.pack(side = TOP)
-    licenselabel.pack(side = TOP)
-    quit_btn.pack(side = BOTTOM)
+    titlelabel.pack(side=TOP)
+    licenselabel.pack(side=TOP)
+    quit_btn.pack(side=BOTTOM)
 
-    #Sustain Window
+    # Sustain Window
     window.mainloop()
+
 
 # eula_btn Function
 def eula():
     # Window Statements
     window = Tk()
-    window.title("CraftClash EULA (End User License Agreement) - About CraftClash - CraftClash - Windows - 0.0.4 BETA")
+    window.title(
+        "CraftClash EULA (End User License Agreement) - About CraftClash - CraftClash - Windows - 0.0.4 BETA"
+    )
 
     # Widgets
-    titlelabel = Label(window, text = "CraftClash EULA (End User License Agreement) \n\n")
-    eulalabel = Label(window, text = """By downloading CraftClash or another application by Dog Face Development Co. (the Software), you agree to the EULA, it's Terms & Conditions, and it's Privacy Policy. This document is an agreement between Dog Face Development Co. (the Company's) and you (the User).
+    titlelabel = Label(window, text="CraftClash EULA (End User License Agreement) \n\n")
+    eulalabel = Label(
+        window,
+        text="""By downloading CraftClash or another application by Dog Face Development Co. (the Software), you agree to the EULA, it's Terms & Conditions, and it's Privacy Policy. This document is an agreement between Dog Face Development Co. (the Company's) and you (the User).
 
 TERMS AND CONDITIONS:
 These terms apply to any piece of software developed or produced by the Company.
@@ -1077,17 +1098,19 @@ The Company's are NOT responsible for any damage that is caused to you or your c
 The Company's reserve ALL rights. The Software may be terminated, or discontinued at ANY time WITHOUT notice. NOT ALL features of the Software are available in all places and in all languages. Some features may require an Internet Connection. 
 Exact copies of the software are not permitted. Changing the name and then copying all the other files is also not permitted. If you change the code and then redistribute the game or use some of the games code you must include all of the Licenses (GNU General Public License 4.0 and the MIT License, EULA (End User License Agreement), and the Creative Commons Attribution if copying the assets) and this EULA with the game package. 
 The Company's are NOT associated with GitHub, except for the fact that they host their source code and websites there. GitHub has no influence over the source code of CraftClash and is not responsible for it. 
-""")
+""",
+    )
     # horiztl_scrlbr = Scrollbar(window, orient = HORIZONTAL, command(SCROLL, -1, UNITS))
-    quit_btn = Button(window, text = "I agree and Close", command = exit)
+    quit_btn = Button(window, text="I agree and Close", command=exit)
 
     # Pack Statements
-    titlelabel.pack(side = TOP)
-    eulalabel.pack(side = TOP)
-    quit_btn.pack(side = BOTTOM)
+    titlelabel.pack(side=TOP)
+    eulalabel.pack(side=TOP)
+    quit_btn.pack(side=BOTTOM)
     # horiztl_scrlbr.pack(side = BOTTOM)
     # Sustain Window
     window.mainloop()
+
 
 # Create the About Screen window
 def aboutscreen():
@@ -1096,16 +1119,23 @@ def aboutscreen():
     window.title("About CraftClash - CraftClash - Windows - 0.0.4 BETA")
 
     # Widgets
-    mainlabel = Label(window, text = "Welcome to the About page. Here you can read the license and find out more about the software!\n\n This software is (C) Copyright 2017 - 2022 by Dog Face Development. All rights reserved. \nThis software is also open source and can be found on GitHub here. \n\nThe software is released under the GNU General Public License. To view the license click the 'Read Project License' button below. \nThe assets (textures, music, GUI, etc.) is released under the Creative Commons Attribution 4.0 License. To view the license click the 'Read Assets License' button below. \n More information about the licenses and other legal stuff can be found in the README.md")
-    projectlicense_btn = Button(window, text = "Read Project License", command = projectlicense)
-    assetslicense_btn = Button(window, text = "Read Assets License", command = assetslicense)
-    eula_btn = Button(window, text = "Read the EULA", command = eula)
+    mainlabel = Label(
+        window,
+        text="Welcome to the About page. Here you can read the license and find out more about the software!\n\n This software is (C) Copyright 2017 - 2022 by Dog Face Development. All rights reserved. \nThis software is also open source and can be found on GitHub here. \n\nThe software is released under the GNU General Public License. To view the license click the 'Read Project License' button below. \nThe assets (textures, music, GUI, etc.) is released under the Creative Commons Attribution 4.0 License. To view the license click the 'Read Assets License' button below. \n More information about the licenses and other legal stuff can be found in the README.md",
+    )
+    projectlicense_btn = Button(
+        window, text="Read Project License", command=projectlicense
+    )
+    assetslicense_btn = Button(
+        window, text="Read Assets License", command=assetslicense
+    )
+    eula_btn = Button(window, text="Read the EULA", command=eula)
 
     # Pack Statements
-    mainlabel.pack(side = TOP)
-    projectlicense_btn.pack(side = TOP)
-    assetslicense_btn.pack(side = TOP)
-    eula_btn.pack(side = TOP)
+    mainlabel.pack(side=TOP)
+    projectlicense_btn.pack(side=TOP)
+    assetslicense_btn.pack(side=TOP)
+    eula_btn.pack(side=TOP)
 
     # Sustain Window
     window.mainloop()
