@@ -79,3 +79,4 @@ def craftclash():
 
     # Sustain Window
     window.mainloop()
+    return window
