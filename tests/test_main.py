@@ -11,6 +11,7 @@ import unittest
 from tkinter import Tk
 from main import craftclash
 
+
 class TestCraftClash(unittest.TestCase):
     def setUp(self):
         self.app = craftclash()
@@ -18,5 +19,6 @@ class TestCraftClash(unittest.TestCase):
     def test_window_title(self):
         self.assertEqual(self.app.title(), "CraftClash - Windows - 0.0.4 BETA")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
