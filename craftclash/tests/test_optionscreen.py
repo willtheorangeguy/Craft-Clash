@@ -7,7 +7,10 @@ parent_dir = os.path.dirname(current_dir)
 sys.path.append(os.path.join(parent_dir))
 
 import unittest
-from optionscreen import optionsscreen  # assuming OptionScreen is a class in optionscreen.py
+from optionscreen import (
+    optionsscreen,
+)  # assuming OptionScreen is a class in optionscreen.py
+
 
 class TestOptionScreen(unittest.TestCase):
     def setUp(self):
@@ -16,5 +19,6 @@ class TestOptionScreen(unittest.TestCase):
     def test_init(self):
         self.assertIsNotNone(self.option_screen)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()

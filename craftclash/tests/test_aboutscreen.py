@@ -9,6 +9,7 @@ sys.path.append(os.path.join(parent_dir))
 import unittest
 from aboutscreen import aboutscreen  # assuming AboutScreen is a class in aboutscreen.py
 
+
 class TestAboutScreen(unittest.TestCase):
     def setUp(self):
         self.about_screen = aboutscreen()
@@ -16,5 +17,6 @@ class TestAboutScreen(unittest.TestCase):
     def test_init(self):
         self.assertIsNotNone(self.about_screen)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
