@@ -1,8 +1,12 @@
+"""Setup file for Craft Clash."""
+#pylint: disable=import-error, invalid-name
+
 from setuptools import setup, find_packages
 
 
 def readme():
-    with open("README.md") as f:
+    """Return the README.md file."""
+    with open("README.md", encoding="UTF-8") as f:
         return f.read()
 
 

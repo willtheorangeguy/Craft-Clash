@@ -1,3 +1,6 @@
-# Initialize PyPI Package
+"""Initialize PyPI Package"""
+#pylint: disable=import-error, invalid-name
 
-__all__ = ["main.craftclash"]
+from main import craftclash
+
+__all__ = ["craftclash"]
