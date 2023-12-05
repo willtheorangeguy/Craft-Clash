@@ -82,5 +82,6 @@ def craftclash():
     window.mainloop()
     return window
 
+
 if __name__ == "__main__":
     craftclash()

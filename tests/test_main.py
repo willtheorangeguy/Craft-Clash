@@ -14,6 +14,7 @@ sys.path.append(os.path.join(parent_dir))
 
 class TestCraftClash(unittest.TestCase):
     """Test the CraftClash class in main.py."""
+    
     def setUp(self):
         """Set up the test."""
         self.app = craftclash()
