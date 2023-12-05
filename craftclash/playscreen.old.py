@@ -14,7 +14,7 @@ Copyright (C) 2017-2022 Dog Face Development Co.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
-#pylint: disable=import-error, invalid-name
+#pylint: disable=import-error, invalid-name, too-many-locals
 
 # Creates the "Playscreen"
 
