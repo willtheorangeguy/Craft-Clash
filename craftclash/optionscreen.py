@@ -14,21 +14,23 @@ Copyright (C) 2017-2022 Dog Face Development Co.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
+#pylint: disable=import-error, invalid-name
 
 ## Creates the "Options" screen.
 
 # Import Statements
-from tkinter import *
-import turtle
+from tkinter import Tk, Label, Button, Scale, Frame, Radiobutton, StringVar, Entry, TOP, LEFT, RIGHT
 import tkinter.messagebox as box
 
 
 def optionsscreen():
+    """Creates the "Options" screen."""
     # Windows Statements
     window = Tk()
     window.title("Options - CraftClash - Windows - Version 0.0.4 BETA")
 
     def gametagedit():
+        """Changes the GameTag."""
         # Widgets
         box.showinfo(
             "Name Change Completed Successfully",
@@ -38,7 +40,9 @@ def optionsscreen():
     # Widgets
     titlelabel = Label(
         window,
-        text="Welcome to the options screen. Here you can change the volume of the game,\n music and difficulty.",
+        text="Welcome to the options screen. \
+            Here you can change the volume of the game,\
+                \n music and difficulty.",
     )
     musicsectiontitle = Label(window, text="Sounds:")
     volumetitle = Label(window, text="\nVolume")

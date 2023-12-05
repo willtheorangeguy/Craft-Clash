@@ -14,15 +14,17 @@ Copyright (C) 2017-2022 Dog Face Development Co.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
+#pylint: disable=import-error, invalid-name, too-many-lines
 
 # Creates the "About" screen.
 
 # Import Statements
-from tkinter import *
+from tkinter import Tk, Label, Button, TOP, BOTTOM
 
 
 # projectlicense_btn Function
 def projectlicense():
+    """Opens the Project License."""
     # Window Statements
     window = Tk()
     window.title(
@@ -32,7 +34,9 @@ def projectlicense():
     # Widgets
     titlelabel = Label(
         window,
-        text="GNU General Public License, Version 3.0: \n \n  Copyright (C) 2007 Free Software Foundation, Inc. <http://fsf.org/> \n \n",
+        text="GNU General Public License, Version 3.0: \
+          \n \n  Copyright (C) 2007 Free Software Foundation, Inc. \
+          <http://fsf.org/> \n \n",
     )
     licenselabel = Label(
         window,
@@ -663,6 +667,7 @@ copy of the Program in return for a fee.
 
 # assetslicense_btn Function
 def assetslicense():
+    """This function is used to display the assets license to the user."""
     # Window Statements
     window = Tk()
     window.title(
@@ -1080,17 +1085,21 @@ Creative Commons may be contacted at creativecommons.org. """,
 
 # eula_btn Function
 def eula():
+    """This function is used to display the EULA to the user."""
     # Window Statements
     window = Tk()
     window.title(
-        "CraftClash EULA (End User License Agreement) - About CraftClash - CraftClash - Windows - 0.0.4 BETA"
+        "CraftClash EULA (End User License Agreement) - \
+          About CraftClash - CraftClash - Windows - 0.0.4 BETA"
     )
 
     # Widgets
     titlelabel = Label(window, text="CraftClash EULA (End User License Agreement) \n\n")
     eulalabel = Label(
         window,
-        text="""By downloading CraftClash or another application by Dog Face Development Co. (the Software), you agree to the EULA, it's Terms & Conditions, and it's Privacy Policy. This document is an agreement between Dog Face Development Co. (the Company's) and you (the User).
+        text="""By downloading CraftClash or another application by Dog Face Development Co. \
+          (the Software), you agree to the EULA, it's Terms & Conditions, and it's Privacy Policy. \
+            This document is an agreement between Dog Face Development Co. (the Company's) and you (the User).
 
 TERMS AND CONDITIONS:
 These terms apply to any piece of software developed or produced by the Company.
@@ -1115,6 +1124,7 @@ The Company's are NOT associated with GitHub, except for the fact that they host
 
 # Create the About Screen window
 def aboutscreen():
+    """This function is used to display the About Screen to the user."""
     # Window Statements
     window = Tk()
     window.title("About CraftClash - CraftClash - Windows - 0.0.4 BETA")
@@ -1122,7 +1132,17 @@ def aboutscreen():
     # Widgets
     mainlabel = Label(
         window,
-        text="Welcome to the About page. Here you can read the license and find out more about the software!\n\n This software is (C) Copyright 2017 - 2022 by Dog Face Development. All rights reserved. \nThis software is also open source and can be found on GitHub here. \n\nThe software is released under the GNU General Public License. To view the license click the 'Read Project License' button below. \nThe assets (textures, music, GUI, etc.) is released under the Creative Commons Attribution 4.0 License. To view the license click the 'Read Assets License' button below. \n More information about the licenses and other legal stuff can be found in the README.md",
+        text="Welcome to the About page. Here you can read the license \
+          and find out more about the software!\n\n \
+            This software is (C) Copyright 2017 - 2022 by Dog Face Development. \
+              All rights reserved. \nThis software is also open source and can be found on GitHub. \
+                \n\nThe software is released under the GNU General Public License. \
+                To view the license click the 'Read Project License' button below. \
+                  \nThe assets (textures, music, GUI, etc.) are released under \
+                  the Creative Commons Attribution 4.0 License. \
+                    To view the license click the 'Read Assets License' button below. \
+                      \n More information about the licenses and other legal stuff \
+                      can be found in the README.md",
     )
     projectlicense_btn = Button(
         window, text="Read Project License", command=projectlicense

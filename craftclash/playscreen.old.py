@@ -14,17 +14,17 @@ Copyright (C) 2017-2022 Dog Face Development Co.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
+#pylint: disable=import-error, invalid-name
 
 # Creates the "Playscreen"
 
 # Import Statements
-from tkinter import *
-import tkinter.messagebox as box
-import turtle
+from tkinter import Tk, Label, Button, PhotoImage, Entry, Frame, TOP, LEFT
 
 
 # Playscreen Function
 def playscreen():
+    """Creates the Playscreen"""
     # Window Elements
     window = Tk()
     window.title("CraftClash - Windows - 0.0.2 BETA - Play!")
@@ -36,7 +36,9 @@ def playscreen():
     )
     worldinfo = Label(
         window,
-        text="We have already created a world for you to play in. \n You can create another world by clicking the 'Create New World!' button at the top of the screen",
+        text="We have already created a world for you to play in. \
+            \n You can create another world by clicking the 'Create New World!' \
+            button at the top of the screen",
     )
     btn_worldone = Button(window, text="World 1", height=4, width=50, command=exit)
     btn_worldoneimg = Button(window, image=worldoneimg)
@@ -51,6 +53,7 @@ def playscreen():
 
 # Create New World Function
 def createworldscreen():
+    """Creates the Create New World screen."""
     # Window Elements
     window = Tk()
     window.title("Creating New World")
@@ -58,8 +61,15 @@ def createworldscreen():
     # Widgets
     createnewworldinfo = Label(
         window,
-        text="Enter a name for your new world and select difficulty. \n\n Spawn in  world with randomly generated trees and try to survive the night by building up your walls and defending your castle from monsters.",
+        text="Enter a name for your new world and select difficulty. \
+            \n\n Spawn in  world with randomly generated trees and \
+            try to survive the night by building up your walls and \
+                defending your castle from monsters.",
     )
     worldnameframe = Frame(window)
     worldnameentry = Entry(worldnameframe, width=20)
-    # Pack Statements
+
+    # Test
+    print(createnewworldinfo)
+    print(worldnameframe)
+    print(worldnameentry)
