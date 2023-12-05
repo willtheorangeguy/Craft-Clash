@@ -14,7 +14,7 @@ sys.path.append(os.path.join(parent_dir))
 
 class TestOptionScreen(unittest.TestCase):
     """Test the OptionScreen class in optionscreen.py."""
-    
+
     def setUp(self):
         """Set up the test."""
         self.option_screen = optionsscreen()
