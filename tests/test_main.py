@@ -1,5 +1,5 @@
 """Test the main application."""
-# pylint: disable=import-error, wrong-import-position
+#pylint: disable=import-error, wrong-import-position
 
 import os
 import sys
