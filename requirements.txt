@@ -3,3 +3,4 @@
 PyInstaller>=3.3
 cx-Freeze>=5.0.2
 Pillow>=5.0.0
+pytest
