@@ -1,5 +1,5 @@
 """
-Copyright (C) 2017-2022 Dog Face Development Co.
+Copyright (C) 2017-2024 Dog Face Development Co.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by

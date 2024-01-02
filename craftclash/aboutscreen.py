@@ -1,5 +1,5 @@
 """
-Copyright (C) 2017-2022 Dog Face Development Co.
+Copyright (C) 2017-2024 Dog Face Development Co.
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -1134,7 +1134,7 @@ def aboutscreen():
         window,
         text="Welcome to the About page. Here you can read the license \
           and find out more about the software!\n\n \
-            This software is (C) Copyright 2017 - 2022 by Dog Face Development. \
+            This software is (C) Copyright 2017 - 2024 by Dog Face Development. \
               All rights reserved. \nThis software is also open source and can be found on GitHub. \
                 \n\nThe software is released under the GNU General Public License. \
                 To view the license click the 'Read Project License' button below. \
