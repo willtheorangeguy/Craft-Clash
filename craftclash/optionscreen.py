@@ -14,12 +14,24 @@ Copyright (C) 2017-2024 Dog Face Development Co.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
-#pylint: disable=import-error, invalid-name, too-many-locals
+# pylint: disable=import-error, invalid-name, too-many-locals
 
 ## Creates the "Options" screen.
 
 # Import Statements
-from tkinter import Tk, Label, Button, Scale, Frame, Radiobutton, StringVar, Entry, TOP, LEFT, RIGHT
+from tkinter import (
+    Tk,
+    Label,
+    Button,
+    Scale,
+    Frame,
+    Radiobutton,
+    StringVar,
+    Entry,
+    TOP,
+    LEFT,
+    RIGHT,
+)
 import tkinter.messagebox as box
 
 
