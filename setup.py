@@ -1,5 +1,6 @@
 """Setup file for Craft Clash."""
-#pylint: disable=import-error, invalid-name
+
+# pylint: disable=import-error, invalid-name
 
 from setuptools import setup, find_packages
 
