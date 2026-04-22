@@ -2,5 +2,5 @@
 
 PyInstaller>=6.19.0
 cx-Freeze>=5.0.2
-Pillow>=5.0.0
+Pillow>=11.3.0
 pytest
