@@ -1,6 +1,6 @@
 # Python Package Requirements
 
-PyInstaller>=3.3
+PyInstaller>=6.19.0
 cx-Freeze>=5.0.2
 Pillow>=5.0.0
 pytest
