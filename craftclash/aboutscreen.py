@@ -1,5 +1,5 @@
 """
-Copyright (C) 2017-2024 Dog Face Development Co.
+Copyright (C) 2017-2026 willtheorangeguy
 
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -1098,9 +1098,9 @@ def eula():
     titlelabel = Label(window, text="CraftClash EULA (End User License Agreement) \n\n")
     eulalabel = Label(
         window,
-        text="""By downloading CraftClash or another application by Dog Face Development Co. \
+        text="""By downloading CraftClash or another application by willtheorangeguy \
           (the Software), you agree to the EULA, it's Terms & Conditions, and it's Privacy Policy. \
-            This document is an agreement between Dog Face Development Co. (the Company's) and you (the User).
+            This document is an agreement between willtheorangeguy (the Company's) and you (the User).
 
 TERMS AND CONDITIONS:
 These terms apply to any piece of software developed or produced by the Company.
@@ -1135,7 +1135,7 @@ def aboutscreen():
         window,
         text="Welcome to the About page. Here you can read the license \
           and find out more about the software!\n\n \
-            This software is (C) Copyright 2017 - 2024 by Dog Face Development. \
+            This software is (C) Copyright 2017 - 2026 by willtheorangeguy. \
               All rights reserved. \nThis software is also open source and can be found on GitHub. \
                 \n\nThe software is released under the GNU General Public License. \
                 To view the license click the 'Read Project License' button below. \

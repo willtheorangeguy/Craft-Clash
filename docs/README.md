@@ -1,6 +1,6 @@
 # CraftClash Documentation
 
-This folder includes all of the docs for CraftClash. In-depth facts about the game and gameplay can be found on the [wiki](https://github.com/Dog-Face-Development/Craft-Clash).
+This folder includes all of the docs for CraftClash. In-depth facts about the game and gameplay can be found on the [wiki](https://github.com/willtheorangeguy/Craft-Clash).
 
 ```text
 ├── docs
