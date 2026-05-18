@@ -1,6 +1,6 @@
 # Security Policy
 
-The security of our software products and services is serious, which includes all source code repositories managed by [Dog Face Development Company](https://github.com/orgs/Dog-Face-Development).
+The security of our software products and services is serious, which includes all source code repositories managed by [willtheorangeguy](https://github.com/orgs/willtheorangeguy).
 
 If you believe you have found a security vulnerability in any repository, please report it to us as described below in [Reporting a Vulnerability](#reporting-a-vulnerability).
 
@@ -16,7 +16,7 @@ The following versions of PyAvatar are currently supported:
 
 ## Reporting a Vulnerability
 
-Please open an [issue](https://github.com/Dog-Face-Development/Craft-Clash/issues/new/choose) to report a security vulnerability. Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
+Please open an [issue](https://github.com/willtheorangeguy/Craft-Clash/issues/new/choose) to report a security vulnerability. Please include the requested information listed below (as much as you can provide) to help us better understand the nature and scope of the possible issue:
 
 * Type of issue (e.g. buffer overflow, SQL injection, cross-site scripting, etc.)
 * Full paths of source file(s) related to the manifestation of the issue

@@ -21,8 +21,8 @@ classifiers = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/Dog-Face-Development/Craft-Clash"
-"Bug Tracker" = "https://github.com/Dog-Face-Development/Craft-Clash/issues"
+"Homepage" = "https://github.com/willtheorangeguy/Craft-Clash"
+"Bug Tracker" = "https://github.com/willtheorangeguy/Craft-Clash/issues"
 
 [tool.setuptools]
 include-package-data = true

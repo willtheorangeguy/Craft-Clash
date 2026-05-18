@@ -24,7 +24,7 @@ setup(
         "Topic :: Games/Entertainment",
     ],
     keywords="minecraft clash of clans royale game food items blocks defense attack battle gui",
-    url="https://github.com/Dog-Face-Development/Craft-Clash",
+    url="https://github.com/willtheorangeguy/Craft-Clash",
     author="willtheorangeguy",
     packages=find_packages(where="craftclash"),
     package_dir={"": "craftclash"},

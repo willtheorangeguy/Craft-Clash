@@ -1,6 +1,6 @@
 <!-- Logo -->
 <h1 align="center">
-  <img src="https://github.com/Dog-Face-Development/Craft-Clash/blob/main/docs/images/logo.png" height="250px" width="400px" alt="CraftClash">
+  <img src="https://github.com/willtheorangeguy/Craft-Clash/blob/main/docs/images/logo.png" height="250px" width="400px" alt="CraftClash">
   <br>
   CraftClash
   <br>
@@ -12,25 +12,25 @@
 <!-- Badges -->
 <div align="center">
   <!-- Stability -->
-  <img alt="PyPI Build State" src="https://github.com/Dog-Face-Development/Craft-Clash/actions/workflows/push-to-pypi.yml/badge.svg">
+  <img alt="PyPI Build State" src="https://github.com/willtheorangeguy/Craft-Clash/actions/workflows/push-to-pypi.yml/badge.svg">
   <!-- Stability -->
-  <img alt="Pytest State" src="https://github.com/Dog-Face-Development/Craft-Clash/actions/workflows/tests.yml/badge.svg">
+  <img alt="Pytest State" src="https://github.com/willtheorangeguy/Craft-Clash/actions/workflows/tests.yml/badge.svg">
   <!-- Stability -->
-  <img alt="Pylint State" src="https://github.com/Dog-Face-Development/Craft-Clash/actions/workflows/pylint.yml/badge.svg">
+  <img alt="Pylint State" src="https://github.com/willtheorangeguy/Craft-Clash/actions/workflows/pylint.yml/badge.svg">
   <!-- CodeQL -->
-  <img alt="CodeQL State" src="https://github.com/Dog-Face-Development/Craft-Clash/actions/workflows/codeql-analysis.yml/badge.svg">
+  <img alt="CodeQL State" src="https://github.com/willtheorangeguy/Craft-Clash/actions/workflows/codeql-analysis.yml/badge.svg">
   <!-- Version -->
-  <img alt="GitHub Version" src="https://img.shields.io/github/v/release/Dog-Face-Development/Craft-Clash?include_prereleases">
+  <img alt="GitHub Version" src="https://img.shields.io/github/v/release/willtheorangeguy/Craft-Clash?include_prereleases">
   <!-- Issues -->
-  <img alt="GitHub Issues" src="https://img.shields.io/github/issues/Dog-Face-Development/Craft-Clash">
+  <img alt="GitHub Issues" src="https://img.shields.io/github/issues/willtheorangeguy/Craft-Clash">
   <!-- Pull Requests -->
-  <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/Dog-Face-Development/Craft-Clash">
+  <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/willtheorangeguy/Craft-Clash">
   <!-- Discord -->
   <img alt="Discord Server ID" src="https://img.shields.io/discord/1020201775153811516">
   <!-- Downloads -->
-  <img alt="Downloads" src="https://img.shields.io/github/downloads/Dog-Face-Development/Craft-Clash/total">
+  <img alt="Downloads" src="https://img.shields.io/github/downloads/willtheorangeguy/Craft-Clash/total">
   <!-- Language Count -->
-  <img alt="GitHub Languages" src="https://img.shields.io/github/languages/count/Dog-Face-Development/Craft-Clash">
+  <img alt="GitHub Languages" src="https://img.shields.io/github/languages/count/willtheorangeguy/Craft-Clash">
 </div>
 
 <!-- Navigation -->
@@ -46,7 +46,7 @@
 
 <!-- Screenshot(s) -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Dog-Face-Development/Craft-Clash/main/docs/images/mainscreen.PNG">
+  <img src="https://raw.githubusercontent.com/willtheorangeguy/Craft-Clash/main/docs/images/mainscreen.PNG">
 </div>
 
 ## Key Features
@@ -66,13 +66,13 @@
 
 ## Download
 
-You can **[download](https://github.com/Dog-Face-Development/Craft-Clash/releases/latest) the source code** to run the game from the command line on Windows, macOS and Linux. **This will require [Python](https://www.python.org/downloads/).**
+You can **[download](https://github.com/willtheorangeguy/Craft-Clash/releases/latest) the source code** to run the game from the command line on Windows, macOS and Linux. **This will require [Python](https://www.python.org/downloads/).**
 
-You can **[download](https://github.com/Dog-Face-Development/Craft-Clash/releases/latest) the latest executable launcher** of CraftClash for Windows. **This does not require Python.**
+You can **[download](https://github.com/willtheorangeguy/Craft-Clash/releases/latest) the latest executable launcher** of CraftClash for Windows. **This does not require Python.**
 
 ## How To Use
 
-To run the application, you can use [Git and the Python Interpreter](https://github.com/Dog-Face-Development/Craft-Clash/main/README.md#git), which allows you to clone and run the application, or [`pip`](https://github.com/Dog-Face-Development/Craft-Clash/main/README.md#pip) to create a command line application.
+To run the application, you can use [Git and the Python Interpreter](https://github.com/willtheorangeguy/Craft-Clash/main/README.md#git), which allows you to clone and run the application, or [`pip`](https://github.com/willtheorangeguy/Craft-Clash/main/README.md#pip) to create a command line application.
 
 ### Git
 
@@ -80,7 +80,7 @@ To clone and run this application, you'll need [Git](https://git-scm.com/downloa
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Dog-Face-Development/Craft-Clash
+$ git clone https://github.com/willtheorangeguy/Craft-Clash
 
 # Go into the repository
 $ cd Craft-Clash
@@ -105,13 +105,13 @@ $ craftclash
 
 When you launch the app you will see the app's welcome interface, containing three buttons. The **Play!** button launches you into your world. The **Options** button brings you to the settings screen which currently lets you change the volume of the game sounds, the volume of the music, edit your in game name, and change your difficulty. The **About** button brings you to a screen where you can learn more about the game and its internal workings.
 
-More documentation is available in the **[Documentation](https://github.com/Dog-Face-Development/Craft-Clash/tree/main/docs)** and on the **[Wiki](https://github.com/Dog-Face-Development/Craft-Clash/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/Dog-Face-Development/Craft-Clash/discussions/new)** or join our **[Discord](https://discord.gg/vdaABVxGHf)**.
+More documentation is available in the **[Documentation](https://github.com/willtheorangeguy/Craft-Clash/tree/main/docs)** and on the **[Wiki](https://github.com/willtheorangeguy/Craft-Clash/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/willtheorangeguy/Craft-Clash/discussions/new)** or join our **[Discord](https://discord.gg/vdaABVxGHf)**.
 
 ## Contributing
 
-Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/Dog-Face-Development/Craft-Clash/compare).
+Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/willtheorangeguy/Craft-Clash/compare).
 
-Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us (including how to sign our CLA).
+Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
 
 ## Changelog
 
@@ -167,10 +167,10 @@ This software uses the following open source packages, projects, services or web
 
 ## You may also like...
 
-* [ProgramVer](https://github.com/Dog-Face-Development/ProgramVer) - An open-source, Python GUI version window to show copyright info and licenses.
-* [PyWorkout](https://github.com/Dog-Face-Development/PyWorkout) - A minimal CLI to keep you inspired during your workout!
-* [Periodic-Table-Info](https://github.com/Dog-Face-Development/Periodic-Table-Info) - Print all the elements in the Periodic Table of the Elements, with an interactive prompt to learn more.
+* [ProgramVer](https://github.com/willtheorangeguy/ProgramVer) - An open-source, Python GUI version window to show copyright info and licenses.
+* [PyWorkout](https://github.com/willtheorangeguy/PyWorkout) - A minimal CLI to keep you inspired during your workout!
+* [Periodic-Table-Info](https://github.com/willtheorangeguy/Periodic-Table-Info) - Print all the elements in the Periodic Table of the Elements, with an interactive prompt to learn more.
 
 ## License
 
-This project (including its non-code assets) is licensed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html) - see the [`LICENSE`](LICENSE.md) file for details. See the [Privacy Policy](https://github.com/Dog-Face-Development/Craft-Clash/blob/master/docs/legal/PRIVACY.md), [Terms and Conditions](https://github.com/Dog-Face-Development/Craft-Clash/blob/master/docs/legal/TERMS.md), and [EULA](https://github.com/Dog-Face-Development/Craft-Clash/blob/master/docs/legal/EULA.md) for legal information.
+This project (including its non-code assets) is licensed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html) - see the [`LICENSE`](LICENSE.md) file for details.

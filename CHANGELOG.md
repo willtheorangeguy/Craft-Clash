@@ -1,6 +1,6 @@
 # Changelog
 
-## [v0.4.0](https://github.com/Dog-Face-Development/Craft-Clash/releases/tag/v0.4.0)
+## [v0.4.0](https://github.com/willtheorangeguy/Craft-Clash/releases/tag/v0.4.0)
 
 ### Added
 
@@ -14,7 +14,7 @@
 - Copied Assets
 - Assets Licenses
 
-## [v0.3.0](https://github.com/Dog-Face-Development/Craft-Clash/tree/v0.0.3)
+## [v0.3.0](https://github.com/willtheorangeguy/Craft-Clash/tree/v0.0.3)
 
 ### Added
 
@@ -31,7 +31,7 @@
 - Project License
 - Assets License(s)
 
-## [v0.2.0](https://github.com/Dog-Face-Development/Craft-Clash/tree/v0.0.2)
+## [v0.2.0](https://github.com/willtheorangeguy/Craft-Clash/tree/v0.0.2)
 
 ### Changed
 
@@ -44,7 +44,7 @@
 
 - Play Screen
 
-## [v0.1.0](https://github.com/Dog-Face-Development/Craft-Clash/releases/tag/beta-v0.0.1)
+## [v0.1.0](https://github.com/willtheorangeguy/Craft-Clash/releases/tag/beta-v0.0.1)
 
 ### Added
 
