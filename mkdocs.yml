@@ -1,0 +1,31 @@
+# Documentation configuration for Craft-Clash.
+
+INHERIT: .mkdocs-shared/shared/mkdocs.base.yml
+
+site_name: 'CraftClash Documentation'
+site_description: 'A game that is a cross of Minecraft and Clash of Clans, written in Python!'
+site_author: willtheorangeguy
+site_url: https://williamvdg.me/Craft-Clash/
+
+repo_url: https://github.com/willtheorangeguy/Craft-Clash
+repo_name: willtheorangeguy/Craft-Clash
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; willtheorangeguy
+
+theme:
+  logo: images/logo.png
+
+nav:
+  - Home: index.md
+  - 'CraftClash Gameplay': 'GAMEPLAY.md'
+  - 'CraftClash Options': 'OPTIONS.md'
+  - 'CraftClash Usage': 'USAGE.md'
+  - Changelog: changelog.md
+  - License: license.md
+  - Contributing: https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md
+  - Code of Conduct: https://github.com/willtheorangeguy/.github/blob/main/CODE_OF_CONDUCT.md
+  - Security: https://github.com/willtheorangeguy/.github/blob/main/SECURITY.md
+
+exclude_docs: |
+  docs.instructions.md
