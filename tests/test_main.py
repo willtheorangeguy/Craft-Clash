@@ -21,11 +21,16 @@ class TestApp(unittest.TestCase):
 
     def tearDown(self):
         """Destroy the application."""
-        self.app.window.destroy()
+        # ``craftclash()`` returns the Tk window itself, so destroy it directly.
+        self.app.destroy()
 
     def test_window_exists(self):
         """Test if the window exists."""
         self.assertIsNotNone(self.app)
+
+    def test_window_title(self):
+        """Test the window title."""
+        self.assertEqual(self.app.title(), "CraftClash - Windows - 0.0.4 BETA")
 
     def test_window_background(self):
         """Test the window background color."""
@@ -58,6 +63,12 @@ class TestApp(unittest.TestCase):
         """Test if the copyright label exists."""
         copyright_label = self.app.grid_slaves(row=6, column=1)[0]
         self.assertIsInstance(copyright_label, Label)
+
+    def test_buttons_have_commands(self):
+        """Test that every button is wired to a command callback."""
+        for row in (3, 4, 5):
+            button = self.app.grid_slaves(row=row, column=2)[0]
+            self.assertNotEqual(button.cget("command"), "")
 
 
 if __name__ == "__main__":

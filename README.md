@@ -1,121 +1,85 @@
 <!-- Logo -->
 <h1 align="center">
-  <img src="https://github.com/willtheorangeguy/Craft-Clash/blob/main/docs/images/logo.png" height="250px" width="400px" alt="CraftClash">
+  <img src="https://raw.githubusercontent.com/willtheorangeguy/.github/main/icons/Craft-Clash/logo.png" height="250px" width="400px" alt="CraftClash">
   <br>
   CraftClash
   <br>
 </h1>
 
 <!-- Copy -->
-<h4 align="center">Spend the day upgrading your buildings and walls, craft new items and tend to your world. Have fun spending the night fighting off monsters and hoping you and your world can endure the damage that they do!</h4>
+<h4 align="center">A day-and-night survival game: build and craft by day, hold off the monsters by night.</h4>
 
 <!-- Badges -->
 <div align="center">
-  <!-- Stability -->
   <img alt="PyPI Build State" src="https://github.com/willtheorangeguy/Craft-Clash/actions/workflows/push-to-pypi.yml/badge.svg">
-  <!-- Stability -->
   <img alt="Pytest State" src="https://github.com/willtheorangeguy/Craft-Clash/actions/workflows/tests.yml/badge.svg">
-  <!-- Stability -->
   <img alt="Pylint State" src="https://github.com/willtheorangeguy/Craft-Clash/actions/workflows/pylint.yml/badge.svg">
-  <!-- CodeQL -->
   <img alt="CodeQL State" src="https://github.com/willtheorangeguy/Craft-Clash/actions/workflows/codeql-analysis.yml/badge.svg">
-  <!-- Version -->
   <img alt="GitHub Version" src="https://img.shields.io/github/v/release/willtheorangeguy/Craft-Clash?include_prereleases">
-  <!-- Issues -->
   <img alt="GitHub Issues" src="https://img.shields.io/github/issues/willtheorangeguy/Craft-Clash">
-  <!-- Pull Requests -->
   <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/willtheorangeguy/Craft-Clash">
-  <!-- Discord -->
-  <img alt="Discord Server ID" src="https://img.shields.io/discord/1020201775153811516">
-  <!-- Downloads -->
-  <img alt="Downloads" src="https://img.shields.io/github/downloads/willtheorangeguy/Craft-Clash/total">
-  <!-- Language Count -->
-  <img alt="GitHub Languages" src="https://img.shields.io/github/languages/count/willtheorangeguy/Craft-Clash">
 </div>
 
 <!-- Navigation -->
 <p align="center">
+  <a href="#status">Status</a> •
   <a href="#key-features">Key Features</a> •
-  <a href="#download">Download</a> •
-  <a href="#how-to-use">How To Use</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#documentation">Documentation</a> •
   <a href="#support">Support</a> •
   <a href="#contributing">Contributing</a> •
-  <a href="#changelog">Changelog</a> •
-  <a href="#credits">Credits & Contributors</a>
+  <a href="#credits">Credits</a> •
+  <a href="#license">License</a>
 </p>
 
-<!-- Screenshot(s) -->
+<!-- Screenshot -->
 <div align="center">
-  <img src="https://raw.githubusercontent.com/willtheorangeguy/Craft-Clash/main/docs/images/mainscreen.PNG">
+  <img src="https://raw.githubusercontent.com/willtheorangeguy/.github/main/icons/Craft-Clash/mainscreen.png" alt="CraftClash main screen">
 </div>
+
+## Status
+
+**Beta, and the game itself is not built yet.** The main menu, the options screen, and the about screen all work. The **Play!** button does not start a game — it is currently wired to exit, and `craftclash/playscreen.old.py` is the disabled play screen.
+
+`PLANNING.md` tracks what remains. Everything below describes what runs today; see [`docs/roadmap.md`](docs/roadmap.md) for what does not, and [`docs/internal/known-issues.md`](docs/internal/known-issues.md) for the defects found while writing these docs.
 
 ## Key Features
 
-* Based of modern games.
-* A dynamic cross of [Clash of Clans](http://supercell.com/en/games/clashofclans/) and [Minecraft](https://minecraft.net/en/).
-* One world per install.
-* Minecraft like look.
-* Includes features from SuperCell games.
-* Options screen for customization.
-* Cross platform.
+- A Tkinter main menu with three screens — play, options, and about.
+- **Options**: sound volume, music volume, in-game name, and difficulty.
+- **About**: the project's licences and internal details, rendered in-app.
+- Pure standard library: Tkinter only, no game engine and nothing to install beyond Python.
+- Cross-platform — Windows, macOS, Linux.
 
-> You craft items to fight monsters such as swords and bows, pickaxes and shovels to mine minerals, and other items and ores to create fences
-> and walls to protect your buildings. Use your pickax or shovel to find coal and iron ore underground! Then, use your coal to turn the iron
-> ore into iron nuggets. Finally, using your iron you can build Iron Armour and a Iron Sword to fight the monsters at night, gaining elixir
-> to upgrade your walls, saving you from additional monster attacks.
-
-## Download
-
-You can **[download](https://github.com/willtheorangeguy/Craft-Clash/releases/latest) the source code** to run the game from the command line on Windows, macOS and Linux. **This will require [Python](https://www.python.org/downloads/).**
-
-You can **[download](https://github.com/willtheorangeguy/Craft-Clash/releases/latest) the latest executable launcher** of CraftClash for Windows. **This does not require Python.**
-
-## How To Use
-
-To run the application, you can use [Git and the Python Interpreter](https://github.com/willtheorangeguy/Craft-Clash/main/README.md#git), which allows you to clone and run the application, or [`pip`](https://github.com/willtheorangeguy/Craft-Clash/main/README.md#pip) to create a command line application.
-
-### Git
-
-To clone and run this application, you'll need [Git](https://git-scm.com/downloads) and [Python](https://www.python.org/downloads/) installed on your computer. If you would rather not use Git, you can just download the script from GitHub above. From your command line:
+## Installation
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/willtheorangeguy/Craft-Clash
-
-# Go into the repository
-$ cd Craft-Clash
-
-# Run the Game!
-$ python main.py
+git clone https://github.com/willtheorangeguy/Craft-Clash
+cd Craft-Clash
+python main.py
 ```
 
-### `pip`
+There is also a PyPI package and a Windows executable, both with caveats — see [`docs/installation.md`](docs/installation.md).
 
-You can install the program from the [Python Package Index](https://pypi.org/project/CraftClash/) through `pip`.
+## Usage
 
-```bash
-# Install via pip
-$ pip install craftclash
+Run `python main.py`. The menu offers **Play!**, **Options**, and **About**.
 
-# Run the Game!
-$ craftclash
-```
+## Documentation
+
+Full documentation lives in [`docs/`](docs/index.md):
+[Quickstart](docs/quickstart.md) · [Installation](docs/installation.md) · [Configuration](docs/configuration.md) · [Architecture](docs/architecture.md) · [Development](docs/development.md) · [FAQ](docs/faq.md) · [Troubleshooting](docs/troubleshooting.md) · [Roadmap](docs/roadmap.md)
 
 ## Support
 
-When you launch the app you will see the app's welcome interface, containing three buttons. The **Play!** button launches you into your world. The **Options** button brings you to the settings screen which currently lets you change the volume of the game sounds, the volume of the music, edit your in game name, and change your difficulty. The **About** button brings you to a screen where you can learn more about the game and its internal workings.
-
-More documentation is available in the **[Documentation](https://github.com/willtheorangeguy/Craft-Clash/tree/main/docs)** and on the **[Wiki](https://github.com/willtheorangeguy/Craft-Clash/wiki)**. If more support is required, please open a **[GitHub Discussion](https://github.com/willtheorangeguy/Craft-Clash/discussions/new)** or join our **[Discord](https://discord.gg/vdaABVxGHf)**.
+Open a [GitHub Discussion](https://github.com/willtheorangeguy/Craft-Clash/discussions/new), file an [issue](https://github.com/willtheorangeguy/Craft-Clash/issues/new/choose), or join the [Discord](https://discord.gg/vdaABVxGHf).
 
 ## Contributing
 
 Please contribute using [GitHub Flow](https://guides.github.com/introduction/flow). Create a branch, add commits, and [open a pull request](https://github.com/willtheorangeguy/Craft-Clash/compare).
 
-Please read [`CONTRIBUTING`](CONTRIBUTING.md) for details on our [`CODE OF CONDUCT`](CODE_OF_CONDUCT.md), and the process for submitting pull requests to us.
-
-## Changelog
-
-See the [`CHANGELOG`](CHANGELOG.md) file for details.
+See the org-wide [Contributing Guide](https://github.com/willtheorangeguy/.github/blob/main/CONTRIBUTING.md) and [Code of Conduct](https://github.com/willtheorangeguy/.github/blob/main/CODE_OF_CONDUCT.md).
 
 ## Credits
 
@@ -161,16 +125,10 @@ This software uses the following open source packages, projects, services or web
   </tr>
 </table>
 
-## Contributors
-
-* [@willtheorangeguy](https://github.com/willtheorangeguy) - Sponsor on [PayPal](https://paypal.me/wvdg44?country.x=CA&locale.x=en_US)
-
-## You may also like...
-
-* [ProgramVer](https://github.com/willtheorangeguy/ProgramVer) - An open-source, Python GUI version window to show copyright info and licenses.
-* [PyWorkout](https://github.com/willtheorangeguy/PyWorkout) - A minimal CLI to keep you inspired during your workout!
-* [Periodic-Table-Info](https://github.com/willtheorangeguy/Periodic-Table-Info) - Print all the elements in the Periodic Table of the Elements, with an interactive prompt to learn more.
+Sponsor [@willtheorangeguy](https://github.com/willtheorangeguy) on [PayPal](https://paypal.me/wvdg44?country.x=CA&locale.x=en_US).
 
 ## License
 
-This project (including its non-code assets) is licensed under the [GNU General Public License](https://www.gnu.org/licenses/gpl-3.0.en.html) - see the [`LICENSE`](LICENSE.md) file for details.
+This project, **including its non-code assets**, is licensed under the [GNU General Public License v3](https://www.gnu.org/licenses/gpl-3.0.en.html) — see [`LICENSE.md`](LICENSE.md).
+
+Note this is GPL, not the MIT licence used elsewhere in this org: anything derived from it must be GPL too.
