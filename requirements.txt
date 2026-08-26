@@ -2,6 +2,6 @@
 
 PyInstaller>=6.22.0
 Pillow>=12.3.0
-cx-Freeze>=8.6.4
+cx-Freeze>=8.7.0
 pytest
 pytest-xvfb
