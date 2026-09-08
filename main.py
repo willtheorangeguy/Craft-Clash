@@ -20,30 +20,39 @@ Copyright (C) 2017-2026 willtheorangeguy
 # Main program window.
 
 # Import Statements
+import os
 from tkinter import Tk, Label, Button, PhotoImage, RAISED
 from craftclash.optionscreen import optionsscreen
 from craftclash.aboutscreen import aboutscreen
 
+# Resolve assets relative to this file so the app works regardless of the
+# current working directory.
+ASSETS_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "assets")
+
 
 def craftclash():
-    """Main program window."""
+    """Build and return the main program window.
+
+    The window is returned without starting the Tk event loop so that it can
+    be created and inspected by tests. Call ``mainloop()`` on the returned
+    window (see ``__main__`` below) to actually run the game.
+    """
     # Window Elements
     window = Tk()
     window.title("CraftClash - Windows - 0.0.4 BETA")
     window.configure(bg="sky blue")
 
     # Images
-    titleimg = PhotoImage(file="assets/logo/titlelogo.gif")
-    playimg = PhotoImage(file="assets/gui/play-circle.gif")
-    optionimg = PhotoImage(file="assets/gui/cog.gif")
-    aboutimg = PhotoImage(file="assets/gui/about.gif")
+    titleimg = PhotoImage(file=os.path.join(ASSETS_DIR, "logo", "titlelogo.gif"))
 
     # Widgets
     title_label = Label(window, image=titleimg)
+    # Keep a reference to the image so it is not garbage collected once this
+    # function returns (Tk does not hold a Python reference of its own).
+    title_label.image = titleimg
     btn_play = Button(
         window, text="Play!", height=3, width=60, bd=4, relief=RAISED, command=exit
     )
-    play_img = Label(window, image=playimg)
     btn_options = Button(
         window,
         text="Options",
@@ -53,7 +62,6 @@ def craftclash():
         relief=RAISED,
         command=optionsscreen,
     )
-    options_img = Label(window, image=optionimg)
     btn_about = Button(
         window,
         text="About",
@@ -63,7 +71,6 @@ def craftclash():
         relief=RAISED,
         command=aboutscreen,
     )
-    about_img = Label(window, image=aboutimg)
     copyright_label = Label(
         window,
         text="Copyright © 2017 - 2026 willtheorangeguy. \t\t\t Version 0.0.4 BETA",
@@ -71,18 +78,13 @@ def craftclash():
 
     # Pack Statements
     title_label.grid(row=1, column=2, rowspan=2, pady=10)
-    play_img.grid(row=3, column=1)
     btn_play.grid(row=3, column=2, columnspan=2)
-    options_img.grid(row=4, column=1)
     btn_options.grid(row=4, column=2, columnspan=2)
-    about_img.grid(row=5, column=1)
     btn_about.grid(row=5, column=2, columnspan=2)
     copyright_label.grid(row=6, column=1, columnspan=5)
 
-    # Sustain Window
-    window.mainloop()
     return window
 
 
 if __name__ == "__main__":
-    craftclash()
+    craftclash().mainloop()
